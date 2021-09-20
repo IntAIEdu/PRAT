@@ -1,5 +1,5 @@
-# PRET prerequisite annotation tool 
-PRET is a tool to support the creation and analysis of Gold Standard Concept Maps 
+# PRAT prerequisite annotation tool 
+PRAT is a tool to support the creation and analysis of Gold Standard Concept Maps 
 where nodes are domain concepts and arcs are preresquisite relations between concept pairs.\
 It is design according to the principles of **PREAP (PRErequisite Annotation Protocol)**.
 
