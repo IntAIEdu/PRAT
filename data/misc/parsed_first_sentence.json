@@ -1,0 +1,446 @@
+{
+  "links": [
+    {
+      "sent_id": 1,
+      "name": "SBJ",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "2",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "VMOD",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "sent_id": 1,
+      "name": "OBJ",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "sent_id": 1,
+      "name": "COORD",
+      "source": "5",
+      "target": "6"
+    },
+    {
+      "sent_id": 1,
+      "name": "SBJ",
+      "source": "6",
+      "target": "11"
+    },
+    {
+      "sent_id": 1,
+      "name": "COORD",
+      "source": "7",
+      "target": "6"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "8",
+      "target": "11"
+    },
+    {
+      "sent_id": 1,
+      "name": "NMOD",
+      "source": "9",
+      "target": "10"
+    },
+    {
+      "sent_id": 1,
+      "name": "PMOD",
+      "source": "10",
+      "target": "8"
+    },
+    {
+      "sent_id": 1,
+      "name": "OBJ",
+      "source": "11",
+      "target": "4"
+    },
+    {
+      "sent_id": 1,
+      "name": "VC",
+      "source": "12",
+      "target": "11"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "13",
+      "target": "12"
+    },
+    {
+      "sent_id": 1,
+      "name": "NMOD",
+      "source": "14",
+      "target": "16"
+    },
+    {
+      "sent_id": 1,
+      "name": "NMOD",
+      "source": "15",
+      "target": "16"
+    },
+    {
+      "sent_id": 1,
+      "name": "PMOD",
+      "source": "16",
+      "target": "13"
+    },
+    {
+      "sent_id": 1,
+      "name": "P",
+      "source": "17",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "18",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "OBJ",
+      "source": "19",
+      "target": "18"
+    },
+    {
+      "sent_id": 1,
+      "name": "P",
+      "source": "20",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "21",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "PMOD",
+      "source": "22",
+      "target": "21"
+    },
+    {
+      "sent_id": 1,
+      "name": "SBJ",
+      "source": "23",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "ROOT",
+      "source": "24",
+      "target": "0"
+    },
+    {
+      "sent_id": 1,
+      "name": "VC",
+      "source": "25",
+      "target": "24"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "26",
+      "target": "25"
+    },
+    {
+      "sent_id": 1,
+      "name": "VMOD",
+      "source": "27",
+      "target": "29"
+    },
+    {
+      "sent_id": 1,
+      "name": "SBJ",
+      "source": "28",
+      "target": "29"
+    },
+    {
+      "sent_id": 1,
+      "name": "OBJ",
+      "source": "29",
+      "target": "25"
+    },
+    {
+      "sent_id": 1,
+      "name": "VC",
+      "source": "30",
+      "target": "29"
+    },
+    {
+      "sent_id": 1,
+      "name": "VC",
+      "source": "31",
+      "target": "30"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "32",
+      "target": "31"
+    },
+    {
+      "sent_id": 1,
+      "name": "PMOD",
+      "source": "33",
+      "target": "32"
+    },
+    {
+      "sent_id": 1,
+      "name": "ADV",
+      "source": "34",
+      "target": "31"
+    },
+    {
+      "sent_id": 1,
+      "name": "PMOD",
+      "source": "35",
+      "target": "34"
+    },
+    {
+      "sent_id": 1,
+      "name": "P",
+      "source": "36",
+      "target": "24"
+    }
+  ],
+  "nodes": [
+    {
+      "sent_id": 1,
+      "pos": "ROOT",
+      "id": "0",
+      "name": "ROOT"
+    },
+    {
+      "sent_id": 1,
+      "pos": "PR",
+      "id": "1",
+      "name": "The"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "2",
+      "name": "need"
+    },
+    {
+      "sent_id": 1,
+      "pos": "TO",
+      "id": "3",
+      "name": "to"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "4",
+      "name": "share"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "5",
+      "name": "information"
+    },
+    {
+      "sent_id": 1,
+      "pos": "CC",
+      "id": "6",
+      "name": "and"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "7",
+      "name": "resources"
+    },
+    {
+      "sent_id": 1,
+      "pos": "IN",
+      "id": "8",
+      "name": "among"
+    },
+    {
+      "sent_id": 1,
+      "pos": "JJ",
+      "id": "9",
+      "name": "different"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "10",
+      "name": "computers"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "11",
+      "name": "has"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "12",
+      "name": "led"
+    },
+    {
+      "sent_id": 1,
+      "pos": "TO",
+      "id": "13",
+      "name": "to"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "14",
+      "name": "linked"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "15",
+      "name": "computer"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "16",
+      "name": "systems"
+    },
+    {
+      "sent_id": 1,
+      "pos": ",",
+      "id": "17",
+      "name": ","
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "18",
+      "name": "called"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "19",
+      "name": "networks"
+    },
+    {
+      "sent_id": 1,
+      "pos": ",",
+      "id": "20",
+      "name": ","
+    },
+    {
+      "sent_id": 1,
+      "pos": "IN",
+      "id": "21",
+      "name": "in"
+    },
+    {
+      "sent_id": 1,
+      "pos": "WD",
+      "id": "22",
+      "name": "which"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "23",
+      "name": "computers"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "24",
+      "name": "are"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "25",
+      "name": "connected"
+    },
+    {
+      "sent_id": 1,
+      "pos": "IN",
+      "id": "26",
+      "name": "so"
+    },
+    {
+      "sent_id": 1,
+      "pos": "IN",
+      "id": "27",
+      "name": "that"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "28",
+      "name": "data"
+    },
+    {
+      "sent_id": 1,
+      "pos": "MD",
+      "id": "29",
+      "name": "can"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "30",
+      "name": "be"
+    },
+    {
+      "sent_id": 1,
+      "pos": "VB",
+      "id": "31",
+      "name": "transferred"
+    },
+    {
+      "sent_id": 1,
+      "pos": "IN",
+      "id": "32",
+      "name": "from"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "33",
+      "name": "machine"
+    },
+    {
+      "sent_id": 1,
+      "pos": "TO",
+      "id": "34",
+      "name": "to"
+    },
+    {
+      "sent_id": 1,
+      "pos": "NN",
+      "id": "35",
+      "name": "machine"
+    },
+    {
+      "sent_id": 1,
+      "pos": ".",
+      "id": "36",
+      "name": "."
+    }
+  ]
+}
+
+
