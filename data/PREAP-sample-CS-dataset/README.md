@@ -2,7 +2,7 @@
 
 The features of the PR-annotated dataset and the options of PREAP adopted in the annotation process are specified in the dataset_metadata file shown in the RDF graph below.
 
-![Metadata describing the sample dataset](https://github.com/IntAIEdu/PRAT/blob/main/data/PREAP-sample-CS-dataset/dataset-metadata.jpg "Metadata describing the sample dataset")
+![Metadata describing the sample dataset](https://github.com/IntAIEdu/PRAT/tree/main/data/PREAP-sample-CS-dataset/dataset-metadata.jpg "Metadata describing the sample dataset")
 
 CONTENT OF THIS FOLDER
 
