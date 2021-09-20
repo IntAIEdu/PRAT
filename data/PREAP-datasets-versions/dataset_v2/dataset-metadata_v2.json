@@ -2,12 +2,12 @@
     "@context":"https://schema.org/",
     "@type":"Dataset",
     "@id":"IDPR_Gold2",
-    "name":"PREAP-sample-CS-dataset",
+    "name":"dataset_v2",
     "description":"High-quality annotated dataset for Prerequisite Relations in a Computer Science textbook chapter (Gold-PR dataset)",
-    "url":"https://github.com/Teldh/PRET/tree/master/data/PREAP-sample-CS-dataset",
+    "url":"https://github.com/IntAIEdu/PRAT/tree/main/data/PREAP-datasets-versions/dataset_v2",
     "keywords":["prerequisite relations","educational concepts","manual text annotation", "in-context annotation"],    
     "language": "English",
-    "measurementTechnique": "PREAP annotation protocol, https://github.com/Teldh/PRET/tree/master/docs/PREAPspecifications",     
+    "measurementTechnique": "PREAP annotation protocol, https://github.com/IntAIEdu/PRAT/tree/master/docs/PREAPspecifications",     
     "variableMeasured":"Prerequisite relations between pairs of educational concepts",
     "isBasedOn":{    
      		"@id":"corpus",       
@@ -33,8 +33,8 @@
     "isAccessibleForFree" : true,
     "creator":{
              "@type":"Organization",
-             "@id":"TelDH",
-              "url": "https://www.dibris.unige.it/",
-              "name":"TelDH Lab, DIBRIS department, Genoa University, Italy"
+             "@id":"IntAIEdu",
+              "url": "anonymized",
+              "name":"anonymized"
     }
 }
