@@ -1,4 +1,8 @@
-**MANUAL one-shot concepts and prerequisites annotation**
+**dataset_v3: MANUAL ONE-SHOT concepts and prerequisites annotation**
+
+The features of the PR-annotated dataset_v3 and the options of PREAP adopted in the annotation process are specified in the dataset_metadata file shown in the RDF graph below.
+
+![Metadata describing the sample dataset](https://github.com/IntAIEdu/PRAT/blob/main/data/PREAP-datasets-versions/dataset_v3/dataset-metadata_v3.jpg)
 
 CONTENT OF THIS FOLDER
 
