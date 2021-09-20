@@ -1,0 +1,25 @@
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    fill: none;
+    stroke: #bbb;
+}
+
+div.container {
+    background-color: rgb(255,255,255,0.9);
+    margin: 3rem;
+    max-width: -webkit-fill-available;
+    height: auto;
+    border-radius: 4px;
+    padding: 15px;
+    overflow: scroll;
+    
+}
+
+svg {
+    
+    width: -webkit-fill-available;
+}

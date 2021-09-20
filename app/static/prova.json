@@ -1,0 +1,4295 @@
+{
+    "annotator": "John Smith",
+    "detected cycles": {
+        "loops": [],
+        "mutuals": [
+            [
+                "NAME SERVER",
+                "DOMAIN NAME SYSTEM"
+            ],
+            [
+                "DOMAIN NAME SYSTEM",
+                "NAME SERVER"
+            ],
+            [
+                "CUSTOMIZED WEBPAGE",
+                "SERVER-SIDE ACTIVITY"
+            ],
+            [
+                "SERVER-SIDE ACTIVITY",
+                "CUSTOMIZED WEBPAGE"
+            ]
+        ]
+    },
+    "diameter": 5,
+    "directed": true,
+    "disconnected nodes": [
+        "EXAMPLE",
+        "FIGURE",
+        "OTHER SIDE",
+        "EFFICIENT SYSTEM",
+        "TRADITIONAL TELEPHONE COMMUNICATION",
+        "OWN NETWORK",
+        "TERM GATEWAY",
+        "SAME MACHINE",
+        "SUCH COMMUNICATION",
+        "EARLY APPLICATION",
+        "END SYSTEM",
+        "END USER",
+        "INTERNET CORPORATION",
+        "ASSIGNED NAME",
+        "GOVERNMENT AGENCY",
+        "MARQUETTE UNIVERSITY",
+        "OWN NAME SERVER",
+        "ACTUAL TRANSMISSION",
+        "OTHER END",
+        "FIRST GENERATION",
+        "BROAD CLASS",
+        "DESIRED DOCUMENT",
+        "HOME PAGE",
+        "COMPUTER SCREEN",
+        "SIMPLE WEBPAGE",
+        "EQUAL SIGN",
+        "HYPERTEXT TRANSFER PROTOCOL SERVER",
+        "SHEET MUSIC",
+        "< MEASURE",
+        "SAME STYLE",
+        "SEARCH ENGINE",
+        "TRAVEL AGENT",
+        "CLIENT-SIDE ACTIVITY",
+        "SUN MICROSYSTEM",
+        "CLIENT SIDE",
+        "UNITED STATE",
+        "SHIPPING COMPANY",
+        "MESSAGE 'S DESTINATION",
+        "IMPORTANT TASK",
+        "MESSAGE 'S ORIGIN",
+        "INTERNATIONAL ORGANIZATION",
+        "LAW ENFORCEMENT",
+        "ACTUAL SERVER",
+        "ACTUAL CLIENT",
+        "SECURE SOCKET LAYER",
+        "PUBLICKEY ENCRYPTION",
+        "ENCRYPTED VERSION",
+        "PUBLIC-KEY ENCRYPTION",
+        "ANYTHING OF VALUE",
+        "ELECTRONIC COMMUNICATION PRIVACY ACT",
+        "ELECTRONIC COMMUNICATION",
+        "ANTICYBERSQUATTING CONSUMER PROTECTION ACT"
+    ],
+    "links": [
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 0,
+            "target": 1
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 2
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 0,
+            "target": 5
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 48
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 50
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 71
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 85
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 0,
+            "target": 101
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 140
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 0,
+            "target": 159
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 1,
+            "target": 2
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 6
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 7
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 8
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 9
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 10
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 11
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 13
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 14
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 19
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 20
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 21
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 22
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 34
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 40
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 41
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 43
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 47
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 48
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 50
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 51
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 54
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 55
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 69
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 84
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 85
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 86
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 2,
+            "target": 98
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 2,
+            "target": 159
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 3,
+            "target": 2
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 19
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 21
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 25
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 3,
+            "target": 26
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 3,
+            "target": 27
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 28
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 31
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 34
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 40
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 41
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 43
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 48
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 3,
+            "target": 51
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 3,
+            "target": 101
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 19
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 4,
+            "target": 24
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 4,
+            "target": 25
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 26
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 27
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 4,
+            "target": 31
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 40
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 41
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 43
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 4,
+            "target": 175
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 5,
+            "target": 6
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 5,
+            "target": 7
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 5,
+            "target": 87
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 5,
+            "target": 140
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 5,
+            "target": 160
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 5,
+            "target": 161
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 6,
+            "target": 7
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 11,
+            "target": 61
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 11,
+            "target": 62
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 13,
+            "target": 14
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 13,
+            "target": 15
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 13,
+            "target": 16
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 13,
+            "target": 17
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 16
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 17
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 38
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 43
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 58
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 61
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 62
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 14,
+            "target": 64
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 14,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 67
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 71
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 14,
+            "target": 72
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 14,
+            "target": 84
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 14,
+            "target": 91
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 103
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 104
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 109
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 140
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 14,
+            "target": 152
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 15,
+            "target": 14
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 15,
+            "target": 16
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 15,
+            "target": 17
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 17,
+            "target": 84
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 17,
+            "target": 85
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 17,
+            "target": 102
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 19,
+            "target": 24
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 19,
+            "target": 25
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 20,
+            "target": 19
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 20,
+            "target": 21
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 20,
+            "target": 28
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 20,
+            "target": 30
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 21,
+            "target": 30
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 21,
+            "target": 34
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 21,
+            "target": 35
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 21,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 22,
+            "target": 19
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 22,
+            "target": 23
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 24,
+            "target": 31
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 24,
+            "target": 32
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 25,
+            "target": 32
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 26,
+            "target": 32
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 28,
+            "target": 29
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 28,
+            "target": 30
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 29,
+            "target": 30
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 30,
+            "target": 32
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 30,
+            "target": 33
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 31,
+            "target": 32
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 31,
+            "target": 33
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 32,
+            "target": 33
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 34,
+            "target": 35
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 47,
+            "target": 50
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 47,
+            "target": 55
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 50
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 51
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 54
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 48,
+            "target": 57
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 81
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 92
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 94
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 96
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 107
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 48,
+            "target": 111
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 136
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 48,
+            "target": 138
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 164
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 48,
+            "target": 167
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 50,
+            "target": 57
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 53,
+            "target": 52
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 53,
+            "target": 54
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 55,
+            "target": 56
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 55,
+            "target": 102
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 59,
+            "target": 60
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 60,
+            "target": 162
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 61,
+            "target": 64
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 61,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 62,
+            "target": 64
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 62,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 63,
+            "target": 102
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 65,
+            "target": 107
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 66,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 66,
+            "target": 77
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 66,
+            "target": 78
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 67,
+            "target": 65
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 67,
+            "target": 77
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 67,
+            "target": 78
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 67,
+            "target": 80
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 71,
+            "target": 72
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 71,
+            "target": 75
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 71,
+            "target": 81
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 77,
+            "target": 80
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 77,
+            "target": 81
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 77,
+            "target": 82
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 77,
+            "target": 111
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 78,
+            "target": 80
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 78,
+            "target": 81
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 78,
+            "target": 82
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 80,
+            "target": 111
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": true,
+            "is_transitive": false,
+            "source": 81,
+            "target": 82
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": true,
+            "is_transitive": false,
+            "source": 82,
+            "target": 81
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 84,
+            "target": 85
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 84,
+            "target": 91
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 87,
+            "target": 88
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 87,
+            "target": 109
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 87,
+            "target": 116
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 87,
+            "target": 123
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 88,
+            "target": 109
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 90,
+            "target": 91
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 90,
+            "target": 92
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 91,
+            "target": 92
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 91,
+            "target": 99
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 91,
+            "target": 100
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 92,
+            "target": 93
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 92,
+            "target": 97
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 92,
+            "target": 99
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 92,
+            "target": 100
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 94,
+            "target": 109
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 96,
+            "target": 97
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 98,
+            "target": 159
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 98,
+            "target": 178
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 98,
+            "target": 179
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 98,
+            "target": 180
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 105,
+            "target": 102
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 105,
+            "target": 152
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 109,
+            "target": 111
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 109,
+            "target": 121
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 110,
+            "target": 109
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 110,
+            "target": 115
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 110,
+            "target": 116
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 111,
+            "target": 113
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 116,
+            "target": 120
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 116,
+            "target": 125
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 118,
+            "target": 120
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 120,
+            "target": 123
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 120,
+            "target": 125
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 120,
+            "target": 131
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 121,
+            "target": 122
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 127,
+            "target": 122
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": true,
+            "is_transitive": false,
+            "source": 134,
+            "target": 136
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": true,
+            "is_transitive": false,
+            "source": 136,
+            "target": 134
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 136,
+            "target": 138
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 140,
+            "target": 143
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 140,
+            "target": 144
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 140,
+            "target": 145
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 140,
+            "target": 146
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 143,
+            "target": 150
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 144,
+            "target": 150
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 144,
+            "target": 153
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 144,
+            "target": 154
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 144,
+            "target": 155
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 145,
+            "target": 156
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 145,
+            "target": 157
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": true,
+            "source": 145,
+            "target": 158
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 156,
+            "target": 157
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 156,
+            "target": 158
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 160,
+            "target": 161
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 164,
+            "target": 165
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 166,
+            "target": 165
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 173,
+            "target": 172
+        },
+        {
+            "annotators": [
+                "annotator1"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 173,
+            "target": 174
+        },
+        {
+            "annotators": [
+                "annotator1",
+                "annotator2",
+                "annotator3",
+                "annotator4"
+            ],
+            "has_mutual": false,
+            "is_transitive": false,
+            "source": 174,
+            "target": 175
+        }
+    ],
+    "max in degree": [
+        "ACCESS INTERNET SERVICE PROVIDER",
+        6
+    ],
+    "max out degree": [
+        "NETWORK",
+        28
+    ],
+    "nodes": [
+        {
+            "cluster": 1,
+            "frequence": 105,
+            "id": 0,
+            "name": "COMPUTER",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 4,
+            "id": 1,
+            "name": "COMPUTER SYSTEM",
+            "sections": [
+                "1",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 214,
+            "id": 2,
+            "name": "NETWORK",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 71,
+            "id": 3,
+            "name": "MACHINE",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 133,
+            "id": 4,
+            "name": "MESSAGE",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 11,
+            "frequence": 56,
+            "id": 5,
+            "name": "SOFTWARE",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 11,
+            "frequence": 2,
+            "id": 6,
+            "name": "NETWORK SOFTWARE",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 11,
+            "frequence": 3,
+            "id": 7,
+            "name": "OPERATING SYSTEM",
+            "sections": [
+                "1",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 3,
+            "id": 8,
+            "name": "PERSONAL AREA NETWORK",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 5,
+            "id": 9,
+            "name": "LOCAL AREA NETWORK",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 4,
+            "id": 10,
+            "name": "METROPOLITAN AREA NETWORK",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 6,
+            "id": 11,
+            "name": "WIDE AREA NETWORK",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 26,
+            "frequence": 52,
+            "id": 12,
+            "name": "EXAMPLE",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 3,
+            "id": 13,
+            "name": "OPEN NETWORK",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 243,
+            "id": 14,
+            "name": "INTERNET",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 2,
+            "id": 15,
+            "name": "OPEN SYSTEM",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 23,
+            "id": 16,
+            "name": "TRANSMISSION CONTROL PROTOCOL",
+            "sections": [
+                "1",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 52,
+            "id": 17,
+            "name": "INTERNET PROTOCOL",
+            "sections": [
+                "1",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 73,
+            "frequence": 31,
+            "id": 18,
+            "name": "FIGURE",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 3,
+            "id": 19,
+            "name": "ETHERNET NETWORK",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 5,
+            "id": 20,
+            "name": "STAR NETWORK",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 16,
+            "frequence": 18,
+            "id": 21,
+            "name": "ACCESS POINT",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 22,
+            "frequence": 7,
+            "id": 22,
+            "name": "BUS NETWORK",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 22,
+            "frequence": 2,
+            "id": 23,
+            "name": "SHORT BUS",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 7,
+            "id": 24,
+            "name": "CARRIER SENSE",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 5,
+            "id": 25,
+            "name": "MULTIPLE ACCESS WITH COLLISION DETECTION",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 7,
+            "id": 26,
+            "name": "MULTIPLE ACCESS",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 5,
+            "id": 27,
+            "name": "COLLISION DETECTION",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 2,
+            "id": 28,
+            "name": "CENTRAL ACCESS POINT",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 2,
+            "id": 29,
+            "name": "HIDDEN TERMINAL PROBLEM",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 2,
+            "id": 30,
+            "name": "MULTIPLE ACCESS WITH COLLISION AVOIDANCE",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 4,
+            "id": 31,
+            "name": "COLLISION AVOIDANCE",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 2,
+            "id": 32,
+            "name": "BUSY CHANNEL",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 0,
+            "frequence": 2,
+            "id": 33,
+            "name": "SILENT CHANNEL",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 16,
+            "frequence": 5,
+            "id": 34,
+            "name": "WIFI NETWORK",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 16,
+            "frequence": 3,
+            "id": 35,
+            "name": "HIDDEN TERMINAL",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 27,
+            "frequence": 2,
+            "id": 36,
+            "name": "OTHER SIDE",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 24,
+            "frequence": 2,
+            "id": 37,
+            "name": "EFFICIENT SYSTEM",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 2,
+            "id": 38,
+            "name": "WORLDWIDE INTERNET",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 23,
+            "frequence": 2,
+            "id": 39,
+            "name": "TRADITIONAL TELEPHONE COMMUNICATION",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 6,
+            "id": 40,
+            "name": "FINAL DESTINATION",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 3,
+            "id": 41,
+            "name": "PROPER DIRECTION",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 72,
+            "frequence": 2,
+            "id": 42,
+            "name": "OWN NETWORK",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 5,
+            "id": 43,
+            "name": "FORWARDING TABLE",
+            "sections": [
+                "1",
+                "4"
+            ]
+        },
+        {
+            "cluster": 28,
+            "frequence": 2,
+            "id": 44,
+            "name": "TERM GATEWAY",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 25,
+            "frequence": 2,
+            "id": 45,
+            "name": "SAME MACHINE",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 74,
+            "frequence": 2,
+            "id": 46,
+            "name": "SUCH COMMUNICATION",
+            "sections": [
+                "1",
+                "5"
+            ]
+        },
+        {
+            "cluster": 17,
+            "frequence": 3,
+            "id": 47,
+            "name": "INTERPROCESS COMMUNICATION",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 151,
+            "id": 48,
+            "name": "SERVER",
+            "sections": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 29,
+            "frequence": 2,
+            "id": 49,
+            "name": "EARLY APPLICATION",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 17,
+            "frequence": 8,
+            "id": 50,
+            "name": "CLIENT/SERVER MODEL",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 51,
+            "name": "PRINT SERVER",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 19,
+            "frequence": 2,
+            "id": 52,
+            "name": "MAGNETIC DISK",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 19,
+            "frequence": 3,
+            "id": 53,
+            "name": "MASS STORAGE",
+            "sections": [
+                "1",
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 19,
+            "frequence": 2,
+            "id": 54,
+            "name": "FILE SERVER",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 8,
+            "id": 55,
+            "name": "PEER-TO-PEER MODEL",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 2,
+            "id": 56,
+            "name": "INSTANT MESSAGING",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 17,
+            "frequence": 2,
+            "id": 57,
+            "name": "CENTRAL SERVER",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 2,
+            "id": 58,
+            "name": "TERM PEER-TO-PEER",
+            "sections": [
+                "1"
+            ]
+        },
+        {
+            "cluster": 15,
+            "frequence": 2,
+            "id": 59,
+            "name": "US GOVERNMENT",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 15,
+            "frequence": 2,
+            "id": 60,
+            "name": "DAR-PA",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 12,
+            "id": 61,
+            "name": "INTERNET SERVICE PROVIDERS",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 35,
+            "id": 62,
+            "name": "INTERNET SERVICE PROVIDER",
+            "sections": [
+                "2",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 10,
+            "id": 63,
+            "name": "TRADITIONAL TELEPHONE",
+            "sections": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 3,
+            "id": 64,
+            "name": "TIER-2 INTERNET SERVICE PROVIDERS",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 10,
+            "id": 65,
+            "name": "ACCESS INTERNET SERVICE PROVIDER",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 2,
+            "id": 66,
+            "name": "SINGLE AUTHORITY",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 6,
+            "id": 67,
+            "name": "INTERNET ACCESS",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 30,
+            "frequence": 10,
+            "id": 68,
+            "name": "END SYSTEM",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 69,
+            "name": "LEGACY ANALOG",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 31,
+            "frequence": 7,
+            "id": 70,
+            "name": "END USER",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 20,
+            "frequence": 10,
+            "id": 71,
+            "name": "INTERNET PROTOCOL ADDRESS",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 20,
+            "frequence": 3,
+            "id": 72,
+            "name": "INTERNET CORPORATION FOR ASSIGNED NAME",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 32,
+            "frequence": 3,
+            "id": 73,
+            "name": "INTERNET CORPORATION",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 33,
+            "frequence": 3,
+            "id": 74,
+            "name": "ASSIGNED NAME",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 20,
+            "frequence": 4,
+            "id": 75,
+            "name": "BIT PATTERN",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 34,
+            "frequence": 2,
+            "id": 76,
+            "name": "GOVERNMENT AGENCY",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 2,
+            "id": 77,
+            "name": "MNEMONIC DOMAIN NAME",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 22,
+            "id": 78,
+            "name": "DOMAIN NAME",
+            "sections": [
+                "2",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 35,
+            "frequence": 2,
+            "id": 79,
+            "name": "MARQUETTE UNIVERSITY",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 6,
+            "id": 80,
+            "name": "MNEMONIC ADDRESS",
+            "sections": [
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "cluster": 2,
+            "frequence": 10,
+            "id": 81,
+            "name": "NAME SERVER",
+            "sections": [
+                "2",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 2,
+            "frequence": 7,
+            "id": 82,
+            "name": "DOMAIN NAME SYSTEM",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 36,
+            "frequence": 3,
+            "id": 83,
+            "name": "OWN NAME SERVER",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 4,
+            "id": 84,
+            "name": "NETWORK PROTOCOL",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 4,
+            "id": 85,
+            "name": "FILE TRANSFER PROTOCOL",
+            "sections": [
+                "2",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 86,
+            "name": "SECURE SHELL",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 46,
+            "id": 87,
+            "name": "BROWSER",
+            "sections": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 11,
+            "id": 88,
+            "name": "HYPERTEXT TRANSFER PROTOCOL",
+            "sections": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 37,
+            "frequence": 3,
+            "id": 89,
+            "name": "ACTUAL TRANSMISSION",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 5,
+            "id": 90,
+            "name": "EMAIL MESSAGE",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 14,
+            "id": 91,
+            "name": "SIMPLE MAIL TRANSFER PROTOCOL",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 18,
+            "id": 92,
+            "name": "MAIL SERVER",
+            "sections": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 3,
+            "id": 93,
+            "name": "MAIL SERVER PROCESS",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 5,
+            "id": 94,
+            "name": "SERVER PROCESS",
+            "sections": [
+                "2",
+                "3"
+            ]
+        },
+        {
+            "cluster": 38,
+            "frequence": 2,
+            "id": 95,
+            "name": "OTHER END",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 21,
+            "frequence": 7,
+            "id": 96,
+            "name": "REMOTE SERVER",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 21,
+            "frequence": 2,
+            "id": 97,
+            "name": "REMOTE MAIL SERVER",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 3,
+            "id": 98,
+            "name": "NETWORK SECURITY",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 3,
+            "id": 99,
+            "name": "OFFICE PROTOCOL VERSION",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 9,
+            "frequence": 2,
+            "id": 100,
+            "name": "INTERNET MAIL ACCESS PROTOCOL",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 101,
+            "name": "LOCAL MACHINE",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 14,
+            "id": 102,
+            "name": "VOICE OVER INTERNET PROTOCOL",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 2,
+            "id": 103,
+            "name": "INTERNET INFRASTRUCTURE",
+            "sections": [
+                "2",
+                "4"
+            ]
+        },
+        {
+            "cluster": 4,
+            "frequence": 3,
+            "id": 104,
+            "name": "TRADITIONAL INTERNET",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 2,
+            "id": 105,
+            "name": "TRANSMISSION CONTROL PROTOCOL/INTERNET PROTOCOL NETWORK",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 39,
+            "frequence": 4,
+            "id": 106,
+            "name": "FIRST GENERATION",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 6,
+            "frequence": 3,
+            "id": 107,
+            "name": "CONTENT DELIVERY NETWORK",
+            "sections": [
+                "2"
+            ]
+        },
+        {
+            "cluster": 40,
+            "frequence": 2,
+            "id": 108,
+            "name": "BROAD CLASS",
+            "sections": [
+                "2",
+                "5"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 10,
+            "id": 109,
+            "name": "WORLD WIDE WEB",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 5,
+            "id": 110,
+            "name": "HYPERTEXT DOCUMENT",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 16,
+            "id": 111,
+            "name": "UNIFORM RESOURCE LOCATOR",
+            "sections": [
+                "3",
+                "4"
+            ]
+        },
+        {
+            "cluster": 41,
+            "frequence": 2,
+            "id": 112,
+            "name": "DESIRED DOCUMENT",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 3,
+            "frequence": 3,
+            "id": 113,
+            "name": "DIRECTORY PATH",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 42,
+            "frequence": 4,
+            "id": 114,
+            "name": "HOME PAGE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 2,
+            "id": 115,
+            "name": "HYPERTEXT TRANSFER PROTOCOL PROTOCOL",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 21,
+            "id": 116,
+            "name": "HYPERTEXT MARKUP LANGUAGE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 43,
+            "frequence": 8,
+            "id": 117,
+            "name": "COMPUTER SCREEN",
+            "sections": [
+                "3",
+                "5"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 2,
+            "id": 118,
+            "name": "SOURCE VERSION",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 44,
+            "frequence": 3,
+            "id": 119,
+            "name": "SIMPLE WEBPAGE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 4,
+            "id": 120,
+            "name": "HYPERTEXT MARKUP LANGUAGE SOURCE DOCUMENT",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 6,
+            "id": 121,
+            "name": "WORLD WIDE WEB CONSORTIUM",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 12,
+            "id": 122,
+            "name": "EXTENSIBLE MARKUP LANGUAGE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 2,
+            "id": 123,
+            "name": "LEVEL-ONE HEADING",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 45,
+            "frequence": 2,
+            "id": 124,
+            "name": "EQUAL SIGN",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 2,
+            "id": 125,
+            "name": "IMAGE TAG",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 46,
+            "frequence": 2,
+            "id": 126,
+            "name": "HYPERTEXT TRANSFER PROTOCOL SERVER",
+            "sections": [
+                "3",
+                "4"
+            ]
+        },
+        {
+            "cluster": 7,
+            "frequence": 8,
+            "id": 127,
+            "name": "TEXT DOCUMENT",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 47,
+            "frequence": 5,
+            "id": 128,
+            "name": "SHEET MUSIC",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 48,
+            "frequence": 2,
+            "id": 129,
+            "name": "< MEASURE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 49,
+            "frequence": 2,
+            "id": 130,
+            "name": "SAME STYLE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 5,
+            "frequence": 3,
+            "id": 131,
+            "name": "EXTENSIBLE MARKUP LANGUAGE STANDARD",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 50,
+            "frequence": 4,
+            "id": 132,
+            "name": "SEARCH ENGINE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 51,
+            "frequence": 3,
+            "id": 133,
+            "name": "TRAVEL AGENT",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 12,
+            "frequence": 5,
+            "id": 134,
+            "name": "CUSTOMIZED WEBPAGE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 52,
+            "frequence": 4,
+            "id": 135,
+            "name": "CLIENT-SIDE ACTIVITY",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 12,
+            "frequence": 5,
+            "id": 136,
+            "name": "SERVER-SIDE ACTIVITY",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 53,
+            "frequence": 2,
+            "id": 137,
+            "name": "SUN MICROSYSTEM",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 12,
+            "frequence": 3,
+            "id": 138,
+            "name": "SERVER SIDE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 54,
+            "frequence": 2,
+            "id": 139,
+            "name": "CLIENT SIDE",
+            "sections": [
+                "3"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 2,
+            "id": 140,
+            "name": "INTERNET SOFTWARE",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 55,
+            "frequence": 5,
+            "id": 141,
+            "name": "UNITED STATE",
+            "sections": [
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 56,
+            "frequence": 9,
+            "id": 142,
+            "name": "SHIPPING COMPANY",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 16,
+            "id": 143,
+            "name": "APPLICATION LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 26,
+            "id": 144,
+            "name": "TRANSPORT LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 13,
+            "frequence": 23,
+            "id": 145,
+            "name": "NETWORK LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 15,
+            "id": 146,
+            "name": "LINK LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 57,
+            "frequence": 4,
+            "id": 147,
+            "name": "MESSAGE 'S DESTINATION",
+            "sections": [
+                "4",
+                "5"
+            ]
+        },
+        {
+            "cluster": 58,
+            "frequence": 2,
+            "id": 148,
+            "name": "IMPORTANT TASK",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 59,
+            "frequence": 3,
+            "id": 149,
+            "name": "MESSAGE 'S ORIGIN",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 7,
+            "id": 150,
+            "name": "PORT NUMBER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 60,
+            "frequence": 2,
+            "id": 151,
+            "name": "INTERNATIONAL ORGANIZATION",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 10,
+            "frequence": 2,
+            "id": 152,
+            "name": "FOUR-LEVEL HIERARCHY",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 12,
+            "id": 153,
+            "name": "USER DATAGRAM PROTOCOL",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 4,
+            "id": 154,
+            "name": "TRANSMISSION CONTROL PROTOCOL TRANSPORT LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 8,
+            "frequence": 4,
+            "id": 155,
+            "name": "TRANSMISSION CONTROL PROTOCOL TRANSPORT",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 13,
+            "frequence": 2,
+            "id": 156,
+            "name": "INTERNET PROTOCOL NETWORK LAYER",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 13,
+            "frequence": 3,
+            "id": 157,
+            "name": "HOP COUNT",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 13,
+            "frequence": 5,
+            "id": 158,
+            "name": "INTERNET PROTOCOL VERSION",
+            "sections": [
+                "4"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 159,
+            "name": "UNAUTHORIZED ACCESS",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 11,
+            "frequence": 2,
+            "id": 160,
+            "name": "MALICIOUS SOFTWARE",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 11,
+            "frequence": 7,
+            "id": 161,
+            "name": "TROJAN HORSE",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 15,
+            "frequence": 5,
+            "id": 162,
+            "name": "COMPUTER EMERGENCY RESPONSE TEAM",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 61,
+            "frequence": 4,
+            "id": 163,
+            "name": "LAW ENFORCEMENT",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 18,
+            "frequence": 7,
+            "id": 164,
+            "name": "DENIAL OF SERVICE",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 18,
+            "frequence": 6,
+            "id": 165,
+            "name": "DENIAL OF SERVICE ATTACK",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 18,
+            "frequence": 6,
+            "id": 166,
+            "name": "SERVICE ATTACK",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 10,
+            "id": 167,
+            "name": "PROXY SERVER",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 62,
+            "frequence": 4,
+            "id": 168,
+            "name": "ACTUAL SERVER",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 63,
+            "frequence": 2,
+            "id": 169,
+            "name": "ACTUAL CLIENT",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 64,
+            "frequence": 2,
+            "id": 170,
+            "name": "SECURE SOCKET LAYER",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 65,
+            "frequence": 2,
+            "id": 171,
+            "name": "PUBLICKEY ENCRYPTION",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 14,
+            "frequence": 4,
+            "id": 172,
+            "name": "PUBLIC-KEY ENCRYPTION SYSTEM",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 14,
+            "frequence": 12,
+            "id": 173,
+            "name": "PUBLIC KEY",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 14,
+            "frequence": 7,
+            "id": 174,
+            "name": "PRIVATE KEY",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 14,
+            "frequence": 2,
+            "id": 175,
+            "name": "DIGITAL SIGNATURE",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 66,
+            "frequence": 2,
+            "id": 176,
+            "name": "ENCRYPTED VERSION",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 67,
+            "frequence": 5,
+            "id": 177,
+            "name": "PUBLIC-KEY ENCRYPTION",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 3,
+            "id": 178,
+            "name": "COMPUTER FRAUD",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 3,
+            "id": 179,
+            "name": "ABUSE ACT",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 1,
+            "frequence": 2,
+            "id": 180,
+            "name": "THEFT OF INFORMATION",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 68,
+            "frequence": 3,
+            "id": 181,
+            "name": "ANYTHING OF VALUE",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 69,
+            "frequence": 3,
+            "id": 182,
+            "name": "ELECTRONIC COMMUNICATION PRIVACY ACT",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 70,
+            "frequence": 6,
+            "id": 183,
+            "name": "ELECTRONIC COMMUNICATION",
+            "sections": [
+                "5"
+            ]
+        },
+        {
+            "cluster": 71,
+            "frequence": 2,
+            "id": 184,
+            "name": "ANTICYBERSQUATTING CONSUMER PROTECTION ACT",
+            "sections": [
+                "5"
+            ]
+        }
+    ],
+    "num links": 237,
+    "num nodes": 185
+}

@@ -1,0 +1,96 @@
+/*
+body {
+    color:#fff;
+    background-color:#222;
+}
+*/
+
+div.container {
+    background-color: rgb(255,255,255,0.9);
+    margin: 3rem;
+    max-width: -webkit-fill-available;
+    height: auto;
+    border-radius: 4px;
+    padding: 15px;
+    overflow: scroll;
+}
+.links path {
+    fill: none;
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    fill: #d62333;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+
+.filters label {
+    display:inline-block;
+    width:60px
+}
+
+.filters select {
+    display:inline-block;
+    position:relative;
+    width:120px;
+    bottom:2px;
+    margin-bottom:4px
+}
+
+#summary {
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#myInput {
+    /*background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#relationsTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#relationsTable th, #relationsTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#relationsTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#relationsTable tr.header, #relationsTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    /*background-color: #377CF1;*/
+}
+
+th {
+    cursor: pointer;
+    width: 60%;
+}
+
+.selected {
+    fill: #fcff0d;
+}
+button {
+    padding: 10px 20px;
+    position:relative;
+    top:10px;
+    left:0px;
+
+}

@@ -1,0 +1,60 @@
+html,body,#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+div.container {
+    width: 100%;
+    height: 100%;
+    font: 10px sans-serif;
+    background-color: rgb(255,255,255,0.9);
+    padding: 1px;
+    margin: 3rem;
+    border-radius: 4px;
+}
+
+.chart {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.axis path,.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+/* FIXME: maybe useless
+.bar {
+    fill: #33b5e5;
+}
+*/
+
+.bar-failed {
+    fill: #CC0000;
+}
+
+.bar-running {
+    fill: #669900;
+}
+
+.bar-succeeded {
+    fill: #33b5e5;
+}
+
+.bar-killed {
+    fill: #ffbb33;
+}
+
+.selected {
+    fill: #911aff;
+}
+
+/* FIXME: maybe useless*/
+.visible {
+    display: block;
+}

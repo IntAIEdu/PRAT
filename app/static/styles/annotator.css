@@ -1,0 +1,343 @@
+.center {
+    margin: auto;
+    width: 35%;
+}
+
+
+.noborders {
+    border-style: hidden;
+}
+
+.noborders td {
+    border: 0;
+}
+
+#leftside {
+    width: 50%;
+    float: left;
+}
+
+#rightside {
+    width: 50%;
+    float: right;
+    padding-left: 15px;
+}
+
+#annotatedText {
+    text-align: justify;
+    padding: 10px;
+    height: 800px;
+    border: 1px solid #ccc;
+    font: 18px "Open Sans";
+    overflow: auto;
+}
+
+#panel_relations {
+    height: 400px;
+    overflow: auto;
+}
+
+#active_concept {
+    /*width: 350px;*/
+    border-color: #37d99b;
+    border-width: medium;
+}
+
+#table_recap_full {
+    width: 50%;
+}
+
+/*
+.highlight {
+    background-color: #fff043;
+    cursor: pointer;
+}
+*/
+
+.automatic_concept {
+    background-color: #fff043;
+    cursor: pointer;
+}
+
+.manual_concept {
+    /*background-color: #5294eb;*/
+    background-color: #37d99b;
+    cursor: pointer;
+}
+
+.recap {
+    display:  none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+#btn_table {
+    width: auto;
+    display: table;
+}
+
+.btn_row {
+    display: table-row;
+}
+
+.btn_cell {
+    display: table-cell;
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Style buttons */
+.final_button {
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#download {
+    background-color: DodgerBlue;
+    color: white;
+}
+
+/* Darker background on mouse-over */
+#download:hover {
+    background-color: RoyalBlue;
+}
+
+/*
+#selectFiles {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+*/
+
+.red_option {
+    color: red;
+    /*font-weight: bold;
+    font-size: 12px;*/
+}
+
+.green_option {
+    color: green;
+}
+
+.grey_option {
+    color: grey;
+}
+
+/* DELETE THIS RULE IF DECIDE TO DELETE TEMPORAL DROPDOWN LIST
+#temptable {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+}
+*/
+
+.selected {
+    background-color: #ff7afb;
+}
+
+
+
+/*
+* {
+    box-sizing: inherit;
+}
+*/
+
+.pn-ProductNav_Wrapper {
+    position: relative;
+    padding: 0 11px;
+    box-sizing: border-box;
+}
+
+.pn-ProductNav {
+    /* Make this scrollable when needed */
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* If JS present, let's hide the default scrollbar */
+    /* positioning context for advancers */
+    position: relative;
+    font-size: 0;
+}
+.js .pn-ProductNav {
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* Remove the default scrollbar for WebKit implementations */
+}
+.js .pn-ProductNav::-webkit-scrollbar {
+    display: none;
+}
+
+.pn-ProductNav_Contents {
+    float: left;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    position: relative;
+}
+
+.pn-ProductNav_Contents-no-transition {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.pn-ProductNav_Link {
+    text-decoration: none;
+    color: #888;
+    font-size: 1.2rem;
+    font-family: -apple-system, sans-serif;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 11px;
+}
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+    border-left-color: #eee;
+}
+.pn-ProductNav_Link[aria-selected="true"] {
+    color: #111;
+}
+
+#pnProductNavContents > .pn-ProductNav_Link {
+    border: 1.5px solid yellow;
+    border-radius: 25px;
+}
+
+#pnProductNavContents2 > .pn-ProductNav_Link {
+    border: 1.5px solid #37d99b;
+    border-radius: 25px;
+}
+
+
+.pn-Advancer {
+    /* Reset the button */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    /* Now style it as needed */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* Set the buttons invisible by default */
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.pn-Advancer:focus {
+    outline: 0;
+}
+.pn-Advancer:hover {
+    cursor: pointer;
+}
+
+.pn-Advancer_Left {
+    left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+    opacity: 1;
+}
+
+.pn-Advancer_Right {
+    right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+    opacity: 1;
+}
+
+.pn-Advancer_Icon {
+    width: 20px;
+    height: 44px;
+    fill: #bbb;
+}
+
+.pn-ProductNav_Indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100px;
+    background-color: transparent;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, background-color .2s ease-in-out;
+    transition: transform .2s ease-in-out, background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+
+/* styles for the context menu*/
+
+ul.tools {
+    display: none;
+    list-style: none;
+    /*box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+    border: solid 1px #7c7c7c;*/
+    position: absolute;
+    background: #fff;
+    padding: 0;
+}
+/*
+ul.tools li {
+    height: 25px;
+    margin: 5px;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+}
+*/
+
+/*
+ul.tools li:hover {
+    background-color: #5294eb;
+    color: #FFF;
+}
+*/
+
+
+chapterTitle, sectionTitle, subsectionTitle {
+    font-weight: bold;
+}
+
+#sent_textarea {
+    /*height: auto;*/
+    width: 100%;
+}
+
+.reopen_button {
+    width: 40px;
+}
+
+#recycle-container {
+    text-align: center;
+}
+
+.automatic_concept > img{
+    width: 13px;
+    vertical-align: top;
+}
+
+.manual_concept > img{
+    width: 13px;
+    vertical-align: top;
+}
