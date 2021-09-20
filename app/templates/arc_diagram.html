@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+        <body style="background-image: url('../static/images/wallpaper.jpeg');background-attachment:fixed;background-repeat:no-repeat"></body>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../static/styles/arc_diagram.css">
+
+        <div class="container">
+            <header class="page-header">
+                <h1>Arc Diagram</h1>
+            </header>
+
+            <div class="filters">
+                <div>
+                    <h3 id="h33" >Text:</h3>
+                </div>
+                <div class="arc">
+
+
+                </div>
+
+                <div>
+                    <label for="section-select">Section:</label>
+                    <select id="section-select">
+                        <option value="All">All</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="direction-select">Direction: </label>
+                    <select id="direction-select">
+                        <option value="All">All</option>
+                        <option value="Forward">Forward</option>
+                        <option value="Backward">Backward</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input id="text-search" placeholder="Search a concept..." style="width: 120px"/>
+                </div>
+
+                <div class='button'>
+               <button onclick="onDownload()">Download Graph Structure</button>
+                </div>
+
+            </div>
+
+            <svg></svg>
+
+            <br>
+
+            <h1>Table of All Prerequisite Relations</h1>
+            <p><button id="buttonShow" onclick="showList()">Show / Hide</button></p>
+            <div id="summary">
+
+                <input type="text" id="myInput" onkeyup="tableSearch()" placeholder="Search a concept...">
+
+                <!-- TODO: add a second input bar for searching among subsidiaries
+                <input type="text" id="myInput2" onkeyup="tableSearch2()" placeholder="Search among subsidiaries autoConcepts...">
+                -->
+
+                <table id="relationsTable">
+                    <tr class="header">
+                        <th onclick="sortTable(0)">Prerequisite</th>
+                        <th onclick="sortTable(1)">Subsidiary</th>
+                        <th onclick="sortTable(2)">Direction</th>
+                        <th onclick="sortTable(3)">Weight</th>
+                    </tr>
+                </table>
+            </div>
+            <script type="text/javascript">
+             var $json = {{ file|tojson }}    
+             $json = JSON.parse($json)
+        </script>
+            <script src="../static/arc_diagram.js"></script>
+        </div>
+{% endblock %}

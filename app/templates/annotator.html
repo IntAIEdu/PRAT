@@ -1,0 +1,389 @@
+<link rel="stylesheet" type="text/css" href='../static/styles/annotator.css'/>
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<body style="background-image: url('../static/images/wallpaper.jpeg');background-attachment:fixed;background-repeat:no-repeat"></body>  
+    <!-- FIXME: it causes a MIME error and the stylesheet is not loaded
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/annotator.css') }}"/>
+    -->
+    
+    <!-- THIS IS BOOTSTRAP ALERT -->
+<div class='alert alert-success' style='display:none' id='bootstrap-alert'>
+  Success! (div with Bootstrap alert class)
+</div>
+<div class="container" style="background-color: rgb(255,255,255,0.9);margin-top:3rem;border-radius:4px;max-width: 1135px;margin-bottom:3rem;padding:15px">
+<h2>Create Annotation</h2>
+In this page you can create annotated corpora to build your dataset.
+Here, you find the text and the concepts of your terminology (if you uploaded one) highlighted in yellow. If you didn’t use a terminology for your text, you can add concepts by dragging them to the “Concepts added by you” section; then, their occurrences will be highlighted in green. If you added a concept by mistake, just delete it by clicking on the bin.
+    In order to insert a relation between a target and a prerequisite concept, double click on a highlighted concept in the text and insert the relation the “Add prerequisites for the selected concept” window. Choose the prerequisite(s) from the list of concepts and provide a weight to the relation.
+<br>Before starting, read the <a href="" target="_blank"onclick="myFunction();">Annotation Guidelines and Knowledge Elicitation Questions</a> so know the annotation criteria.
+
+    <br>
+    
+    
+
+    <div id="leftside">
+        <h2>TEXT<img src="../static/images/arrow.svg" width="20px"></h2>
+        <div class="panel panel-primary" style="border:2px solid;border-color:#2B67D2">
+            <div class="panel-heading" style="background-color:#2B67D2;padding:8px"><img src="../static/images/icons8-documento.svg" width="20"></div>
+            <div class="panel-body" id="annotatedText" contenteditable="false" style="padding:4px;height:700px"></div>
+        </div>
+    </div>
+    <div id="rightside">
+        <h2>CONCEPTS<img src="../static/images/arrow.svg" width="20px"></h2>
+        <div class="panel panel-primary" style="border:2px solid;border-color:#2B67D2">
+            <div class="panel-heading"style="background-color:#2B67D2;padding:8px"><img src="../static/images/balls.svg" width="20"></div>
+            <div class="panel-body" style="padding:4px">
+                <p class="highlight"><strong>Concepts originally provided:</strong></p>
+
+                <div class="pn-ProductNav_Wrapper">
+                    <nav id="pnProductNav" class="pn-ProductNav">
+                        <div id="pnProductNavContents" class="pn-ProductNav_Contents">
+                            <!--
+                            <a href="#" class="pn-ProductNav_Link" aria-selected="true">Chairs</a>
+                            <span id="pnIndicator" class="pn-ProductNav_Indicator"></span>
+                            -->
+                        </div>
+                    </nav>
+                    <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button">
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z"/></svg>
+                    </button>
+                    <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button">
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z"/></svg>
+                    </button>
+                </div>
+
+
+                <hr size="2">
+
+                <p class="addedConcept"><strong>Concepts added by you (in order of insertion):</strong></p>
+
+                <div class="pn-ProductNav_Wrapper">
+                    <nav id="pnProductNav2" class="pn-ProductNav">
+                        <div id="pnProductNavContents2" class="pn-ProductNav_Contents">
+                            <!--
+                            <a href="#" class="pn-ProductNav_Link" aria-selected="true">Chairs</a>
+                            <span id="pnIndicator" class="pn-ProductNav_Indicator"></span>
+                            -->
+                        </div>
+                    </nav>
+                    <button id="pnAdvancerLeft2" class="pn-Advancer pn-Advancer_Left" type="button">
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z"/></svg>
+                    </button>
+                    <button id="pnAdvancerRight2" class="pn-Advancer pn-Advancer_Right" type="button">
+                        <svg class="pn-Advancer_Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 1024"><path d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z"/></svg>
+                    </button>
+                </div>
+
+                <br>
+                <input type='text' id='active_concept' class="form-control name_list" placeholder="Drag words here to add new concepts" data-toggle="modal" data-target="#modalAddTerm" data-to-pass="my_value"/>
+                <br>
+                <span style="font-weight: bold;">To delete a concept, click the trash can icon </span><br>
+                <div id="recycle-container">
+                    <input type='image' id='delete_concept' src="../static/images/trashcan-146455_1280.png" title="click to detete a manual concept" width="50px"/>
+                </div>
+                <br>
+                <!--TODO: uncomment it when the functions to delete concepts are implemented
+                <input type='text' id='delete_concept' class="form-control name_list" placeholder="Drag concepts here to remove them from the terminology" data-toggle="modal" data-target="#modalDeleteTerm" data-to-pass="my_value"/>
+                <br>
+                -->
+            </div>
+        </div>
+        <!--
+        <h2 class="block_title">CONCEPTS<img src="../static/images/arrow.svg" width="15px"></h2>
+        -->
+        <br>
+        <h2 class="block_title">RELATIONS<img src="../static/images/arrow.svg" width="20px"></h2>
+        <div class="panel panel-primary" id="panel_relations" style="border:2px solid;border-color:#2B67D2;height:250px">
+            <div class="panel-heading"style="background-color:#2B67D2;padding:8px"><img src="../static/images/Split-arrows_2.svg" width="auto" style="color:white"></div>
+            <div class="panel-body" style="padding:4px">
+
+            <!--
+            <div>
+                <button onclick="renderHTML()" type="button" id="see_preview" class="btn">See all the relations inserted so far</button>
+            </div>
+            -->
+            <div id="preview">
+                <table class="table table-bordered" id="table_recap_full">
+                    <tr>
+                        <th></th><th>ID</th><th>SENTENCE</th><th>PREREQUISITE</th><th>TARGET</th><th>WEIGHT</th>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+
+        <!-- FIXME: uncomment submit button when the form is complete
+        <input type="button" name="submit" id="submit" class="btn btn-info" value="Submit!" /> -->
+
+    <div style="margin-top:40px;"><button type="button" id="show_save_modal" class="btn btn-primary float-right">Save annotation</button></div>
+    </div>
+
+
+
+            <!--
+            <td><a id="download" onclick="downloadJSON(this);" class="btn final_button"><i class="fa fa-download"></i>Save partial annotation</a></td>
+            <td><a id="submit" onclick="submit(this);" class="btn btn-success final_button" value="Submit!" />Save the final annotation</td>
+            -->
+
+
+
+    <div style="clear: both;"></div>
+</div>
+
+<div class="modal fade" id="save_modal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Saving annotation</h3>
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('active_concept').value = '';">&times;</button>
+            </div>
+            <div class="modal-body">
+                Click "Save partial annotation" if you want to stop for now and resume the annotation later.<br><br>
+                Click "Save final annotation" if you have finished and don’t need to add more relations (you’ll be able to revise and modify the inserted relations in the Revision page).
+            </div>
+            <div class="modal-footer">
+                <button id="download" onclick="downloadJSON(this);" class="btn final_button">Save partial annotation</button>
+                 <button id="submit" onclick="submit(this);" class="btn btn-success final_button" value="Submit!" />Save final annotation</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+
+<ul class="tools">
+    <!--
+    <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalAddTerm" data-to-pass="my_value">Add in the terminology</button></li>
+    <li onclick="setAsAdvanced()"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalAddRelation" data-to-pass="my_value">Add prerequisites for this concept</button></li>
+    -->
+    <li onclick="highlightSentence()"><button type="button" class="btn btn-info btn-lg"><img src="../static/images/highlighter.svg" width="25">Highlight sentence</button></li>
+</ul>
+
+
+<!-- Modal box for adding term -->
+<div class="modal fade" id="modalAddTerm" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('active_concept').value = '';">&times;</button>
+                <h4 class="modal-title">Add a new concept</h4>
+            </div>
+            <div class="modal-body">
+                <p>You clicked on this text:</p>
+                <br>
+                <input type="text" name="termOnFocus" id="newConcept" class="form-control name_list" placeholder="" required readonly>
+                <br>
+                <p>The following lemmatized concept will be added:</p>
+                <br>
+                <input type="text" name="termOnFocus" id="newConceptLemma" class="form-control name_list" required readonly>
+            </div>
+            <div class="modal-footer">
+                <button onclick="addTerm()" id="confirmAddTerm" type="button" class="btn btn-default btn-success" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="modalDeleteTerm" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('delete_concept').value = '';">&times;</button>
+                <h4 class="modal-title">Delete a concept</h4>
+            </div>
+            <div class="modal-body">
+                <label for="del_select">Select the concept you want to delete:</label>
+                <input type="text" name="name[]" autocomplete="off" id="del_select" placeholder="Write concept to eliminate" class="form-control name_list autocomplete" required/>
+            </div>
+            <div class="modal-footer">
+                <button onclick="deleteTerm()" type="button" class="btn btn-default btn-success" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--TODO: uncomment it when the improved functions to delete concepts are implemented
+<div class="modal fade" id="modalDeleteTerm" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('delete_concept').value = '';">&times;</button>
+                <h4 class="modal-title">Delete a concept</h4>
+            </div>
+            <div class="modal-body">
+                <p>The following concept will be deleted:</p>
+                </br>
+                <input type="text" name="termOnFocus" id="conceptToDelete" class="form-control name_list" placeholder="Insert a term in its basic form (case insensitive)" required>
+            </div>
+            <div class="modal-footer">
+                <button onclick="deleteTerm()" type="button" class="btn btn-default btn-success" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+
+
+<!-- Modal box for adding relations -->
+<div class="modal fade" id="modalAddRelation" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="renderHTML()">&times;</button>
+                <h4 class="modal-title">Add prerequisites for the selected concept</h4>
+            </div>
+            <div class="modal-body">
+
+                <!--<label for="selectedAdvanced">Prerequisites of:</label>-->
+                <input type="text" id="selectedAdvanced" class="form-control name_list" placeholder="Insert a term in its basic form (case insensitive)" required>
+                <label for="selectedsentence">in sentence: </label>
+                <input type="text" id="selectedsentence" class="form-control name_list" placeholder="If this field is empty, exit this window and try to select the concept avoiding whitespaces" required readonly>
+                <br>
+
+                <div id="btn_table">
+                    <div class="btn_row">
+                        <div class="btn_cell">
+                            <button onclick="showRecap(selectedAdvanced)" class="btn btn_rel">Show/hide prerequisites already inserted for this concept in other sentences</button>
+                        </div>
+                    </div>
+
+                    <div class="btn_row">
+                        <div class="btn_cell">
+                            <div id="recap_adv" class="recap"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="btn_row">
+                        <div class="btn_cell">
+                            <button onclick="showSentence()" class="btn btn_rel">Show/hide sentence</button>
+                        </div>
+                    </div>
+
+                    <div id="recap_sentence" class="shadow-textarea">
+                    </div>
+                </div>
+
+                <br>
+
+                <h5><strong>Select prerequisites and weights:
+                    <abbr title="Meaning of the weights:
+                    strong = necessary relation
+                    weak = useful but not necessary relation">
+                        <img src="../static/images/blue_question_mark.png" height="25px"/>
+                    </abbr></strong>
+                </h5>
+
+                <table class="table table-bordered" id="dynamic_field2">
+                </table>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <td><button type="button" name="add" id="add" class="btn btn-primary">Add More Prerequisites</button></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="confirm_relations" class="btn btn-default btn-success" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Modal box for getting the summary of a term -->
+<div class="modal fade" id="conceptSummary" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="conceptSummary_name"></h4>
+            </div>
+            <div class="modal-body">
+                <p>The following relations have been added:</p>
+                <table class="table table-bordered" id="table_conceptSummary">
+                    <tr>
+                        <th>SENTENCE</th><th>PREREQUISITE</th><th>ADVANCED</th><th>WEIGHT</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-success" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Modal box for adding term -->
+<div class="modal fade" id="chooseConcept" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('active_concept').value = '';">&times;</button>
+                <h4 class="modal-title">!!! Problems with the concept !!!</h4>
+            </div>
+            <div class="modal-body">
+                <p>The clicked concept raised some problems!<br>Insert the concept manually by selecting it from the list:</p>
+                <br>
+                <input type="text" name="name[]" id="properAdvanced" placeholder="Select a concept" class="form-control name_list autocomplete" required/>
+            </div>
+            <div class="modal-footer">
+                <button onclick="document.getElementById('selectedAdvanced').value = document.getElementById('properAdvanced').value;" type="button" class="btn btn-default btn-success" data-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+             var $conll = {{ file.conll|tojson }}
+             var $bid = {{ file.bid|tojson }}
+             var $cap = {{ file.cap|tojson }}
+             var $tagged = {{ file.tagged|tojson }}
+             var $autoConcepts = {{ file.concepts|tojson }}
+             var $conceptToTok = {{ file.concept_to_tok|tojson }}
+             var $tokToConcept = {{ file.tok_to_concept|tojson }}
+             var $sentList = {{ file.sent|tojson }}
+             {% if file.json is defined %}
+                 var flag = true
+                 var json = {{ file.json|tojson }}
+             {% else %}
+                 var flag = false
+            {% endif %}
+
+window.onbeforeunload = confirmExit;
+  function confirmExit()
+  {
+    return "You have attempted to leave this page.  If you have made any changes without clicking the Save button, your changes will be lost.  Are you sure you want to exit this page?";
+  }
+
+function myFunction() {
+    window.open("{{ url_for('guidelines') }}");
+}
+
+</script>
+<script src="../static/annotator.js"></script>
+{% endblock %}

@@ -1,0 +1,54 @@
+<link rel="stylesheet" type="text/css" href='../static/styles/visualization.css'/>
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+    <div class="container">
+    <header class="page-header"><h1>Visualize your annotation</h1></header>
+    <br/>
+    <br/>
+        <h2>Use your annotated data to visualize it</h2>
+        <!-- <p>Insert your name: <input type="text" name="name"/></p> -->
+        <p>Import annotated data:  <button type="button" class="btn btn-success">Upload</button></p>
+
+        <h2>Select the form of visualization:</h2>
+		<p>
+            <button type="button" class="btn btn-primary" id="matrix">Matrix</button>
+            <abbr title="See the matrix (sortable by different criterion)."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <p>
+            <button type="button" id="show_save_modal" class="btn btn-primary"> Graph </button>
+            <abbr title="Explore the network of concepts with their connections (useful to easily detect transitives and cycles)."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <p>
+            <button type="button" class="btn btn-primary"> Arc Diagram</button>
+            <abbr title="See the concepts in a horizontal arrangement (useful to investigate correlations between prerequisite and temporal order of occurrence)."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <!--
+        <p>
+            <button type="button" class="btn btn-primary"> Edge Bundling </button>
+            <abbr title="Too see autoConcepts in a circular arrangement"><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        -->
+        <p>
+            <button type="button" class="btn btn-primary"> Clusters </button>
+            <abbr title="Discover groups of concepts as they emerge from a community detection algorithm."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <p>
+            <button type="button" class="btn btn-primary"> Gantt of bursts </button>
+            <abbr title="See the periods of bursting activity of each concept along the temporal axis (useful to investigate correlations between those periods and the prerequisite relation)."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <!-- SPOSTATO IN ANALYSIS.HTML
+        <p>
+            <button type="button" class="btn btn-primary"> Data Synthesis </button>
+            <abbr title="See a summary of metrics derived from the annotation."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        <p>
+            <button type="button" class="btn btn-primary"> Linguistic Analysis </button>
+            <abbr title="See a summary of linguistic features involved with the prerequisite relation."><img src="../static/images/blue_question_mark.png" height="20px"/></abbr>
+        </p>
+        -->
+
+   </div>
+
+{% endblock %}

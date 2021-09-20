@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container vertical-center">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="jumbotron bg-transparent">
+          <h1 class="display-4">ERROR 500</h1>
+          <p class="lead">An unexpected error has occurred.</p>
+          <hr class="my-4">
+          <a class="btn btn-primary btn-lg" href="{{ url_for('index') }}">Back</a>
+        </div>
+      </div>
+    </div>
+{% endblock %}
