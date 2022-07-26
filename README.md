@@ -1,27 +1,25 @@
 # PREAP Prerequisite Annotation Protocol 
-A protocol for prerequisite relation annotation
+<i>A protocol for prerequisite relation annotation</i>
 
 This repository includes:
 <ol>
-	<li> PREAP documents: <b><href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a></b>
+	<li> <b>PREAP documents: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a></b>
 <ul> 
 <li>PREAP Annotation Manual for Annotators
 <li>PREAP Specifications for Project Manager
 </ul>
 
-<li> Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a>
+<li> <b>Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a><b>
 <ul> 
-<li>Evaluation: Datasets and Source Texts used in PREAP Evaluation with education experts <href="https://github.com/IntAIEdu/PRAT/tree/main/data/evaluation">PRAT/data/evaluation</a>
-<li>Case Study: Annotation project example <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-annotation">PRAT/data/case-study</a>
+<li>Evaluation - Datasets and Source Texts used in PREAP Evaluation with education experts: <href="https://github.com/IntAIEdu/PRAT/tree/main/data/evaluation">PRAT/data/evaluation</a>
+<li>Case Study - Annotation project example: <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-annotation">PRAT/data/case-study-annotation</a>
 <ul>
 <li>List of concepts, annotated PR-dataset, row text
 <li>JSON-LD and visual RDF graph encoding metadata information about the
 dataset and the related annotation process
 </ul>
-</ul>
-
-<li> Datasets and related data used in the ML Experimental tests: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a>
-<li> PRAT tool for PR annotation and analysis: <href="https://github.com/IntAIEdu/PRAT/tree/main/app">PRAT/app/</a>
+<li> Case Study - Datasets and related data used in the ML Experimental tests: : <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-ML">PRAT/data/case-study-ML</a>
+<li><b> PRAT tool for PR annotation and analysis: <href="https://github.com/IntAIEdu/PRAT/tree/main/app">PRAT/app/</a></b>
 </ol>
 
 
