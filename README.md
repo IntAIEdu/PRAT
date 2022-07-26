@@ -9,7 +9,7 @@ This repository includes:
 <li>PREAP Specifications for Project Manager
 </ul>
 
-<li> <b>Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a><b>
+<li> <b>Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a></b>
 <ul> 
 <li>Evaluation - Datasets and Source Texts used in PREAP Evaluation with education experts: <href="https://github.com/IntAIEdu/PRAT/tree/main/data/evaluation">PRAT/data/evaluation</a>
 <li>Case Study - Annotation project example: <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-annotation">PRAT/data/case-study-annotation</a>
