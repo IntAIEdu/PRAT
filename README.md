@@ -54,7 +54,7 @@ Prerequisites:
     - venv\Scripts\activate
     
 *2. Now that you have a virtual environment you can install all the packages required through:*
-
+        -copy requirements.txt from the app folder
 	-pip install -r requirements.txt 
 	
 *3. Database creation:*
