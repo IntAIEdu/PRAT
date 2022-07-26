@@ -2,7 +2,7 @@
 **using three different options for concept annotation:**
 
 - Automatic concept annotation --> dataset_v1
-- Semi-automatic concept annotation --> dataset_v2 sameAs [PREAP-sample-CS-dataset](https://github.com/IntAIEdu/PRAT/tree/main/data/PREAP-sample-CS-dataset)
+- Semi-automatic concept annotation --> dataset_v2 sameAs [PREAP-sample-CS-dataset](https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-annotation/PREAP-sample-CS-dataset)
 - Manual one-shot annotation of concepts and prerequisites --> dataset_v3
 
 Each dataset is provided with: 
