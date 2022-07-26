@@ -21,7 +21,7 @@ dataset and the related annotation process
 </ul>
 
 <li> Datasets and related data used in the ML Experimental tests: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a>
-<li> PRAT tool for PR annotation and analysis
+<li> PRAT tool for PR annotation and analysis: <href="https://github.com/IntAIEdu/PRAT/tree/main/app">PRAT/app/</a>
 </ol>
 
 
