@@ -19,6 +19,7 @@ This repository includes:
 dataset and the related annotation process
 </ul>
 <li> Case Study - Datasets and related data used in the ML Experimental tests: : <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-ML">PRAT/data/case-study-ML</a>
+</ul>
 <li><b> PRAT tool for PR annotation and analysis: <href="https://github.com/IntAIEdu/PRAT/tree/main/app">PRAT/app/</a></b>
 </ol>
 
