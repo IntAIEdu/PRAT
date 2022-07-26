@@ -11,8 +11,8 @@ This repository includes:
 
 <li> Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a>
 <ul> 
-<li>PREAP evaluation: Datasets and Source Texts used in the Evaluation 
-<li>Case Study documentation
+<li>Evaluation: Datasets and Source Texts used in PREAP Evaluation with education experts <href="https://github.com/IntAIEdu/PRAT/tree/main/data/evaluation">PRAT/data/evaluation</a>
+<li>Case Study: Annotation project example <href="https://github.com/IntAIEdu/PRAT/tree/main/data/case-study-annotation">PRAT/data/case-study</a>
 <ul>
 <li>List of concepts, annotated PR-dataset, row text
 <li>JSON-LD and visual RDF graph encoding metadata information about the
