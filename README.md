@@ -1,3 +1,20 @@
+PREAP Annotation Protocol
+
+Resources publicly available on GitHub7:
+– PREAP annotation protocol:
+– PREAP Annotation Manual for Annotators
+– PREAP Specifications for Project Manager
+– Datasets and Source Texts used in the Evaluation
+– Case Study documentation
+– List of concepts, annotated PR-dataset, row text
+– JSON-LD and visual RDF graph encoding metadata information about the
+dataset and the related annotation process.
+– Datasets and related data used in the ML Experimental tests
+– PRAT tool for PR annotation and analysis
+
+
+
+
 # PRAT prerequisite annotation tool 
 PRAT is a tool to support the creation and analysis of Gold Standard Concept Maps 
 where nodes are domain concepts and arcs are preresquisite relations between concept pairs.\
