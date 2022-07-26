@@ -1,18 +1,28 @@
-PREAP Annotation Protocol
+# PREAP Prerequisite Annotation Protocol 
+for prerequisite relation annotation
 
-Resources publicly available on GitHub7:
-– PREAP annotation protocol:
-– PREAP Annotation Manual for Annotators
-– PREAP Specifications for Project Manager
-– Datasets and Source Texts used in the Evaluation
-– Case Study documentation
-– List of concepts, annotated PR-dataset, row text
-– JSON-LD and visual RDF graph encoding metadata information about the
-dataset and the related annotation process.
-– Datasets and related data used in the ML Experimental tests
-– PRAT tool for PR annotation and analysis
+This repository includes:
+<ol>
+<li> PREAP documents: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a>
+<ul> 
+<li>PREAP Annotation Manual for Annotators
+<li>PREAP Specifications for Project Manager
+</ul>
 
+<li> Datasets used for PREAP evaluation and case study: <href="https://github.com/IntAIEdu/PRAT/tree/main/data">PRAT/data/</a>
+<ul> 
+<li>PREAP evaluation: Datasets and Source Texts used in the Evaluation 
+<li>Case Study documentation
+<ul>
+<li>List of concepts, annotated PR-dataset, row text
+<li>JSON-LD and visual RDF graph encoding metadata information about the
+dataset and the related annotation process
+</ul>
+</ul>
 
+<li> Datasets and related data used in the ML Experimental tests: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a>
+<li> PRAT tool for PR annotation and analysis
+</ol>
 
 
 # PRAT prerequisite annotation tool 
