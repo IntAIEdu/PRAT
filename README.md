@@ -3,7 +3,7 @@ A protocol for prerequisite relation annotation
 
 This repository includes:
 <ol>
-<li> PREAP documents: <href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a>
+	<li> PREAP documents: <b><href="https://github.com/IntAIEdu/PRAT/tree/main/docs">PRAT/docs/</a></b>
 <ul> 
 <li>PREAP Annotation Manual for Annotators
 <li>PREAP Specifications for Project Manager
