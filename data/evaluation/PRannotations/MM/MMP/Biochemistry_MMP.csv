@@ -1,0 +1,110 @@
+Source,Target
+
+energy,activation energy
+reaction,activation energy
+biochemical reaction,activation energy
+cell,biochemical reaction
+biochemical reaction,chemical bond-breaking and -form
+biochemical reaction,endergonic
+biochemical reaction,energy
+biochemical reaction,enzyme
+biochemical reaction,exergonic
+biochemical reaction,reactant
+reaction,biochemical reaction
+catalyst,activation energy
+biochemical reaction,catalyst
+cell,catalyst
+catalyst,chemical bond-breaking and -form
+catalyst,energy
+molecule,catalyst
+protein,catalyst
+reaction,catalyst
+cell,reactant
+cell,reaction
+reaction,chemical bond-breaking and -form
+chemical reaction,activation energy
+chemical reaction,catalyst
+cell,chemical reaction
+chemical reaction,chemical bond-breaking and -form
+chemical reaction,endergonic
+chemical reaction,energy
+chemical reaction,enzyme
+chemical reaction,exergonic
+chemical reaction,molecule
+chemical reaction,reactant
+reaction,chemical reaction
+energy,endergonic
+reaction,endergonic
+reaction,energy
+enzyme,activation energy
+cell,enzyme
+protein,enzyme
+reaction,enzyme
+energy,exergonic
+reaction,exergonic
+cell,molecule
+molecule,enzyme
+reaction,molecule
+reaction,protein
+reaction,reactant
+biochemical reaction,substance
+substance,catalyst
+chemical reaction,substance
+molecule,substance
+substance,protein
+substance,reactant
+reaction,substance
+product,activation energy
+activation energy,reactant
+activation energy,biochemical reaction
+chemical bond-breaking and -form,biochemical reaction
+energy,biochemical reaction
+product,biochemical reaction
+protein,biochemical reaction
+reactant,biochemical reaction
+chemical bond-breaking and -form,catalyst
+energy,catalyst
+catalyst,enzyme
+product,catalyst
+energy,cell
+activation energy,chemical bond-breaking and -form
+chemical bond-breaking and -form,endergonic
+energy,chemical bond-breaking and -form
+chemical bond-breaking and -form,exergonic
+chemical bond-breaking and -form,product
+chemical bond-breaking and -form,reactant
+chemical reaction,biochemical reaction
+energy,chemical reaction
+product,chemical reaction
+activation energy,endergonic
+product,endergonic
+reactant,endergonic
+energy,product
+energy,reactant
+energy,reaction
+activation energy,enzyme
+chemical bond-breaking and -form,enzyme
+energy,enzyme
+product,enzyme
+activation energy,exergonic
+product,exergonic
+reactant,exergonic
+molecule,biochemical reaction
+molecule,cell
+energy,molecule
+molecule,protein
+reaction,product
+cell,protein
+energy,protein
+substance,activation energy
+substance,biochemical reaction
+substance,cell
+substance,chemical bond-breaking and -form
+substance,chemical reaction
+substance,endergonic
+substance,energy
+substance,enzyme
+substance,exergonic
+substance,molecule
+substance,product
+substance,reaction

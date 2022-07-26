@@ -1,0 +1,11 @@
+Source,Target
+
+independent,ratio
+event,ratio
+outcome,ratio
+finite,ratio
+event,independent
+outcome,independent
+finite,independent
+event,outcome
+event,finite

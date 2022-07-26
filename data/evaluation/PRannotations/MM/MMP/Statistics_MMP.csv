@@ -1,0 +1,75 @@
+Source,Target
+
+ratio,conditional probability
+event,conditional probability
+event,independent
+event,joint event
+event,uniform probability
+joint event,conditional probability
+numerical value,conditional probability
+numerical value,ratio
+numerical value,uniform probability
+event,outcome
+outcome,independent
+probability model,outcome
+probability,conditional probability
+event,probability
+probability,independent
+probability,outcome
+probability,probability measure
+probability,probability model
+ratio,probability
+probability,sample space
+probability,uniform probability
+probability measure,conditional probability
+numerical value,probability measure
+ratio,probability measure
+probability measure,uniform probability
+probability model,conditional probability
+probability model,event
+probability model,independent
+probability model,joint event
+probability model,probability measure
+probability model,uniform probability
+numerical value,random variable
+event,sample space
+probability model,sample space
+ratio,uniform probability
+event,probability measure
+event,random variable
+ratio,finite
+independent,conditional probability
+independent,joint event
+numerical value,finite
+numerical value,independent
+numerical value,joint event
+outcome,probability measure
+outcome,uniform probability
+independent,probability
+joint event,probability
+numerical value,probability
+outcome,probability
+random variable,probability
+sample space,probability
+finite,probability measure
+probability measure,independent
+probability measure,joint event
+random variable,probability measure
+conditional probability,probability model
+event,probability model
+finite,probability model
+joint event,probability model
+numerical value,probability model
+random variable,probability model
+ratio,probability model
+uniform probability,probability model
+random variable,conditional probability
+finite,random variable
+random variable,independent
+random variable,joint event
+random variable,uniform probability
+outcome,sample space
+sample space,probability model
+uniform probability,conditional probability
+independent,uniform probability
+joint event,uniform probability

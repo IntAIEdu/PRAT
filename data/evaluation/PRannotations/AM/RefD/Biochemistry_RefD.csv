@@ -1,0 +1,39 @@
+Source,Target
+
+endergonic,exergonic
+enzyme,biochemical reaction
+activation energy,endergonic
+activation energy,exergonic
+energy,enzyme
+energy,biochemical reaction
+biochemical reaction,activation energy
+chemical reaction,energy
+enzyme,activation energy
+biochemical reaction,endergonic
+biochemical reaction,exergonic
+enzyme,endergonic
+enzyme,exergonic
+energy,activation energy
+energy,endergonic
+energy,exergonic
+chemical reaction,biochemical reaction
+exergonic,substance
+exergonic,molecule
+chemical reaction,enzyme
+endergonic,substance
+endergonic,molecule
+activation energy,substance
+activation energy,molecule
+biochemical reaction,substance
+biochemical reaction,molecule
+enzyme,substance
+enzyme,molecule
+energy,substance
+energy,molecule
+chemical reaction,activation energy
+molecule,reaction
+chemical reaction,endergonic
+chemical reaction,substance
+chemical reaction,molecule
+energy,reaction
+chemical reaction,reaction

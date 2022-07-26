@@ -1,0 +1,88 @@
+Source,Target
+
+tissue,stomach
+fungal cell,tissue
+eukaryotic,tissue
+digestive system,protist cell
+fungal cell,stomach
+eukaryotic,stomach
+muscle tissue,connective tissue
+bacteria,organ system
+nervous system,muscle tissue
+nervous system,connective tissue
+connective tissue,digestive system
+stomach,nervous system
+nervous tissue,heart
+muscle tissue,digestive system
+tissue,nervous system
+stomach,muscle tissue
+nervous system,digestive system
+protist cell,bacteria
+tissue,muscle tissue
+tissue,connective tissue
+stomach,connective tissue
+stomach,protist cell
+fungal cell,digestive system
+eukaryotic,digestive system
+tissue,protist cell
+digestive system,bacteria
+stomach,digestive system
+tissue,digestive system
+digestive system,organ system
+connective tissue,bacteria
+organ system,nervous tissue
+connective tissue,organ system
+heart,multicellular organism
+tissue,bacteria
+muscle tissue,organ system
+bacteria,heart
+bacteria,nervous tissue
+organ system,heart
+nervous system,organ system
+stomach,bacteria
+fungal cell,protist cell
+eukaryotic,protist cell
+stomach,organ system
+protist cell,heart
+tissue,organ system
+digestive system,nervous tissue
+nervous system,nervous tissue
+connective tissue,nervous tissue
+connective tissue,heart
+bacteria,multicellular organism
+tissue,nervous tissue
+fungal cell,heart
+eukaryotic,heart
+nervous system,heart
+fungal cell,bacteria
+eukaryotic,bacteria
+muscle tissue,nervous tissue
+stomach,heart
+stomach,nervous tissue
+tissue,heart
+muscle tissue,heart
+tissue,multicellular organism
+protist cell,plant cell
+protist cell,prokaryotic
+bacteria,plant cell
+bacteria,prokaryotic
+digestive system,plant cell
+digestive system,prokaryotic
+stomach,plant cell
+stomach,prokaryotic
+tissue,plant cell
+tissue,prokaryotic
+fungal cell,plant cell
+eukaryotic,plant cell
+fungal cell,prokaryotic
+eukaryotic,prokaryotic
+protist cell,multicellular organism
+fungal cell,multicellular organism
+eukaryotic,multicellular organism
+multicellular organism,organism
+heart,organism
+bacteria,organism
+protist cell,organism
+tissue,organism
+fungal cell,organism
+eukaryotic,organism

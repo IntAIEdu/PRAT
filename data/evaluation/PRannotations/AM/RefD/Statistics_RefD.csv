@@ -1,0 +1,25 @@
+Source,Target
+
+sample space,conditional probability
+sample space,probability model
+random variable,sample space
+random variable,conditional probability
+random variable,probability model
+independent,sample space
+event,sample space
+outcome,sample space
+independent,random variable
+event,random variable
+outcome,random variable
+independent,conditional probability
+event,conditional probability
+outcome,conditional probability
+independent,probability model
+event,probability model
+outcome,probability model
+conditional probability,uniform probability
+probability model,uniform probability
+sample space,uniform probability
+independent,uniform probability
+event,uniform probability
+outcome,uniform probability

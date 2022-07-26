@@ -1,0 +1,33 @@
+Source,Target
+
+sample space,probability
+sample space,probability model
+sample space,finite
+sample space,uniform probability
+outcome,sample space
+outcome,random variable
+outcome,uniform probability
+event,sample space
+event,probability model
+event,probability
+event,independent
+event,joint event
+random variable,probability model
+random variable,numerical value
+finite,uniform probability
+joint event,conditional probability
+ratio,conditional probability
+probability,probability measure
+probability,uniform probability
+probability measure,probability model
+probability measure,uniform probability
+probability measure,conditional probability
+ratio,probability
+probability,conditional probability
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'visualizza_grafo_PREAP_2input' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off

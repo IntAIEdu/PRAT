@@ -1,0 +1,97 @@
+Source,Target
+
+cell,animal cell
+cell,archaea
+cell,bacteria
+cell,brain
+cell,circulatory system
+cell,connective tissue
+cell,digestive system
+cell,eukaryotic
+cell,fungal cell
+cell,heart
+cell,muscle tissue
+cell,nervous system
+cell,nervous tissue
+cell,organ
+cell,organ system
+cell,organism
+cell,plant cell
+cell,prokaryotic
+cell,protist cell
+cell,stomach
+cell,tissue
+connective tissue,organ
+organism,connective tissue
+eukaryotic,animal cell
+eukaryotic,fungal cell
+eukaryotic,plant cell
+eukaryotic,protist cell
+cell,multicellular organism
+multicellular organism,circulatory system
+multicellular organism,connective tissue
+multicellular organism,digestive system
+multicellular organism,muscle tissue
+multicellular organism,nervous system
+multicellular organism,nervous tissue
+multicellular organism,organ
+multicellular organism,organ system
+organism,multicellular organism
+multicellular organism,stomach
+tissue,multicellular organism
+muscle tissue,organ
+organism,muscle tissue
+nervous tissue,organ
+organism,nervous tissue
+organ,brain
+organ,digestive system
+organ,heart
+organ,organ system
+organ,stomach
+organ system,circulatory system
+organ system,digestive system
+prokaryotic,archaea
+prokaryotic,bacteria
+tissue,connective tissue
+tissue,muscle tissue
+tissue,nervous tissue
+tissue,organ
+organism,tissue
+multicellular organism,heart
+multicellular organism,brain
+multicellular organism,eukaryotic
+multicellular organism,prokaryotic
+multicellular organism,animal cell
+multicellular organism,plant cell
+multicellular organism,fungal cell
+multicellular organism,protist cell
+multicellular organism,archaea
+multicellular organism,bacteria
+tissue,stomach
+tissue,heart
+tissue,brain
+tissue,organ system
+tissue,digestive system
+tissue,circulatory system
+tissue,nervous system
+tissue,organism
+organ,circulatory system
+organ,nervous system
+organ,organism
+stomach,digestive system
+organism,stomach
+heart,circulatory system
+organism,heart
+brain,nervous system
+organism,brain
+organ system,nervous system
+organ system,organism
+organism,digestive system
+organism,circulatory system
+organism,nervous system
+eukaryotic,archaea
+eukaryotic,bacteria
+prokaryotic,animal cell
+prokaryotic,plant cell
+prokaryotic,fungal cell
+prokaryotic,protist cell

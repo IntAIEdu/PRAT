@@ -1,0 +1,289 @@
+Source,Target
+
+abstract algebra,equation
+abstract algebra,number
+abstraction,constant
+abstraction,number
+abstraction,variable
+equation,additive inverse
+algebra,abstract algebra
+algebra,constant
+algebra,elementary algebra
+algebra,elementary equation
+algebra,equation
+algebra,formula
+algebra,mathematical symbol
+mathematics,algebra
+algebra,modern algebra
+algebra,number
+algebra,number theory
+algebra,variable
+analysis,abstraction
+analysis,mathematical symbol
+analysis,number
+arithmetic,additive inverse
+arithmetic,equation
+arithmetic,formula
+arithmetic,number
+equation,constant
+formula,constant
+elementary algebra,constant
+elementary algebra,equation
+elementary algebra,formula
+elementary algebra,letter
+elementary algebra,variable
+constant,elementary equation
+elementary algebra,elementary equation
+equation,elementary equation
+formula,elementary equation
+letter,elementary equation
+number,elementary equation
+variable,elementary equation
+abstract algebra,field
+equation,field
+formula,field
+modern algebra,field
+number,field
+abstract algebra,group
+equation,group
+formula,group
+modern algebra,group
+number,group
+constant,letter
+variable,letter
+arithmetic,mathematical symbol
+mathematical symbol,constant
+mathematical symbol,elementary equation
+mathematical symbol,equation
+mathematical symbol,formula
+mathematical symbol,letter
+mathematical symbol,number
+mathematical symbol,variable
+mathematics,abstract algebra
+mathematics,advance mathematics
+mathematics,analysis
+mathematics,arithmetic
+mathematics,constant
+mathematics,elementary algebra
+mathematics,elementary equation
+mathematics,equation
+mathematics,formula
+mathematics,geometry
+mathematics,mathematical symbol
+mathematics,modern algebra
+mathematics,number
+mathematics,number theory
+mathematics,variable
+modern algebra,equation
+modern algebra,number
+number,additive inverse
+equation,number
+formula,number
+number theory,additive inverse
+arithmetic,number theory
+number,number theory
+abstract algebra,ring
+equation,ring
+formula,ring
+modern algebra,ring
+number,ring
+equation,variable
+formula,variable
+additive inverse,abstract algebra
+abstract algebra,advance mathematics
+arithmetic,abstract algebra
+constant,abstract algebra
+equation,abstract algebra
+formula,abstract algebra
+letter,abstract algebra
+number,abstract algebra
+variable,abstract algebra
+abstraction,abstract algebra
+additive inverse,abstraction
+abstraction,advance mathematics
+arithmetic,abstraction
+constant,abstraction
+elementary algebra,abstraction
+equation,abstraction
+abstraction,field
+formula,abstraction
+abstraction,group
+letter,abstraction
+abstraction,modern algebra
+number,abstraction
+abstraction,ring
+variable,abstraction
+additive inverse,equation
+formula,additive inverse
+additive inverse,advance mathematics
+arithmetic,advance mathematics
+constant,advance mathematics
+equation,advance mathematics
+formula,advance mathematics
+letter,advance mathematics
+number,advance mathematics
+variable,advance mathematics
+abstract algebra,algebra
+abstraction,algebra
+additive inverse,algebra
+algebra,advance mathematics
+algebra,analysis
+arithmetic,algebra
+constant,algebra
+elementary algebra,algebra
+elementary equation,algebra
+equation,algebra
+field,algebra
+formula,algebra
+group,algebra
+letter,algebra
+mathematical symbol,algebra
+algebra,mathematics
+modern algebra,algebra
+number,algebra
+number theory,algebra
+ring,algebra
+variable,algebra
+abstraction,analysis
+additive inverse,analysis
+analysis,advance mathematics
+arithmetic,analysis
+constant,analysis
+elementary algebra,analysis
+elementary equation,analysis
+equation,analysis
+formula,analysis
+letter,analysis
+mathematical symbol,analysis
+modern algebra,analysis
+number,analysis
+variable,analysis
+additive inverse,arithmetic
+arithmetic,constant
+number,arithmetic
+arithmetic,variable
+constant,equation
+constant,formula
+elementary algebra,abstract algebra
+additive inverse,elementary algebra
+elementary algebra,advance mathematics
+arithmetic,elementary algebra
+constant,elementary algebra
+equation,elementary algebra
+formula,elementary algebra
+letter,elementary algebra
+elementary algebra,modern algebra
+number,elementary algebra
+variable,elementary algebra
+elementary equation,abstract algebra
+elementary equation,abstraction
+additive inverse,elementary equation
+elementary equation,advance mathematics
+arithmetic,elementary equation
+elementary equation,elementary algebra
+elementary equation,modern algebra
+field,abstract algebra
+field,advance mathematics
+arithmetic,field
+elementary algebra,field
+group,field
+field,modern algebra
+ring,field
+formula,equation
+abstraction,geometry
+additive inverse,geometry
+geometry,advance mathematics
+arithmetic,geometry
+constant,geometry
+elementary algebra,geometry
+elementary equation,geometry
+equation,geometry
+field,geometry
+formula,geometry
+group,geometry
+letter,geometry
+mathematical symbol,geometry
+modern algebra,geometry
+number,geometry
+ring,geometry
+variable,geometry
+group,abstract algebra
+group,advance mathematics
+arithmetic,group
+group,modern algebra
+group,ring
+letter,constant
+letter,equation
+letter,formula
+letter,variable
+mathematical symbol,abstract algebra
+mathematical symbol,abstraction
+mathematical symbol,additive inverse
+mathematical symbol,advance mathematics
+mathematical symbol,arithmetic
+mathematical symbol,elementary algebra
+mathematical symbol,field
+mathematical symbol,group
+letter,mathematical symbol
+mathematical symbol,modern algebra
+number,mathematical symbol
+mathematical symbol,ring
+abstract algebra,mathematics
+abstraction,mathematics
+additive inverse,mathematics
+advance mathematics,mathematics
+analysis,mathematics
+arithmetic,mathematics
+constant,mathematics
+elementary algebra,mathematics
+elementary equation,mathematics
+equation,mathematics
+field,mathematics
+formula,mathematics
+geometry,mathematics
+group,mathematics
+letter,mathematics
+mathematical symbol,mathematics
+modern algebra,mathematics
+number,mathematics
+number theory,mathematics
+ring,mathematics
+variable,mathematics
+modern algebra,abstract algebra
+additive inverse,modern algebra
+modern algebra,advance mathematics
+arithmetic,modern algebra
+constant,modern algebra
+equation,modern algebra
+formula,modern algebra
+letter,modern algebra
+number,modern algebra
+variable,modern algebra
+number,constant
+number,equation
+number,formula
+number,variable
+abstract algebra,number theory
+abstraction,number theory
+additive inverse,number theory
+number theory,advance mathematics
+number theory,analysis
+constant,number theory
+elementary algebra,number theory
+elementary equation,number theory
+equation,number theory
+field,number theory
+formula,number theory
+number theory,geometry
+group,number theory
+letter,number theory
+mathematical symbol,number theory
+modern algebra,number theory
+ring,number theory
+variable,number theory
+ring,abstract algebra
+ring,advance mathematics
+arithmetic,ring
+ring,modern algebra
+variable,equation
+variable,formula

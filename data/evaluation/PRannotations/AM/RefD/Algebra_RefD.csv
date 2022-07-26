@@ -1,0 +1,70 @@
+Source,Target
+
+mathematics,variable
+number,constant
+field,constant
+mathematical symbol,constant
+geometry,constant
+mathematical symbol,formula
+elementary algebra,constant
+modern algebra,constant
+abstract algebra,constant
+arithmetic,constant
+group,constant
+equation,constant
+elementary equation,constant
+variable,constant
+mathematics,constant
+number theory,constant
+mathematics,formula
+constant,additive inverse
+number,additive inverse
+variable,additive inverse
+number theory,additive inverse
+formula,advance mathematics
+formula,abstraction
+formula,analysis
+constant,advance mathematics
+constant,abstraction
+constant,analysis
+elementary algebra,additive inverse
+arithmetic,additive inverse
+equation,additive inverse
+elementary equation,additive inverse
+mathematics,additive inverse
+number,advance mathematics
+number,abstraction
+number,analysis
+variable,advance mathematics
+variable,abstraction
+variable,analysis
+field,advance mathematics
+field,abstraction
+field,analysis
+number theory,advance mathematics
+number theory,abstraction
+number theory,analysis
+geometry,advance mathematics
+geometry,abstraction
+geometry,analysis
+elementary algebra,advance mathematics
+elementary algebra,abstraction
+elementary algebra,analysis
+modern algebra,advance mathematics
+abstract algebra,advance mathematics
+modern algebra,abstraction
+abstract algebra,abstraction
+modern algebra,analysis
+abstract algebra,analysis
+arithmetic,advance mathematics
+arithmetic,abstraction
+arithmetic,analysis
+group,advance mathematics
+group,abstraction
+group,analysis
+equation,advance mathematics
+elementary equation,advance mathematics
+equation,abstraction
+elementary equation,abstraction
+equation,analysis
+elementary equation,analysis

@@ -1,0 +1,117 @@
+Source,Target
+
+boundar y contour,contour plan
+plan,contour plan
+relief,contour plan
+topography,contour plan
+unit of stratification,contour plan
+deposit,boundar y contour
+deposit,interface
+deposit,relief
+topography,deposit
+interface,horizontal layer interface
+layer,horizontal layer interface
+surface,horizontal layer interface
+surface of strata,horizontal layer interface
+topography,horizontal layer interface
+unit of stratification,horizontal layer interface
+relief,interface
+topography,interface
+layer,boundar y contour
+layer,interface
+layer,stratigraphic relationship
+topography,layer
+layer interface,horizontal layer interface
+interface,layer interface
+layer,layer interface
+period interface,layer interface
+stratigraphic relationship,layer interface
+surface,layer interface
+surface of strata,layer interface
+topography,layer interface
+unit of stratification,layer interface
+layer interface,upstanding layer interface
+surface,major surface
+interface,period interface
+layer,period interface
+surface,period interface
+unit of stratification,period interface
+topography,plan
+topography,relief
+relief,spot - height
+topography,spot - height
+stratigraphic relationship,boundar y contour
+topography,stratigraphic relationship
+surface,boundar y contour
+plan,surface
+relief,surface
+surface,stratigraphic relationship
+topography,surface
+deposit,surface of strata
+surface of strata,major surface
+period interface,surface of strata
+stratigraphic relationship,surface of strata
+surface,surface of strata
+topography,surface of strata
+unit of stratification,surface of strata
+unit of stratification,deposit
+unit of stratification,interface
+unit of stratification,layer
+unit of stratification,relief
+unit of stratification,stratigraphic relationship
+unit of stratification,surface
+interface,upstanding layer interface
+layer,upstanding layer interface
+surface,upstanding layer interface
+surface of strata,upstanding layer interface
+topography,upstanding layer interface
+unit of stratification,upstanding layer interface
+contour plan,boundar y contour
+deposit,contour plan
+surface,contour plan
+contour plan,unit of stratification
+plan,deposit
+deposit,topography
+deposit,horizontal layer interface
+horizontal layer interface,period interface
+spot - height,horizontal layer interface
+horizontal layer interface,stratigraphic relationship
+horizontal layer interface,unit of stratification
+interface,topography
+deposit,layer
+plan,layer
+layer,topography
+deposit,layer interface
+layer interface,stratigraphic relationship
+layer interface,unit of stratification
+deposit,period interface
+relief,period interface
+period interface,topography
+plan,boundar y contour
+plan,interface
+plan,relief
+plan,topography
+relief,topography
+deposit,spot - height
+spot - height,layer
+boundar y contour,stratigraphic relationship
+deposit,stratigraphic relationship
+interface,stratigraphic relationship
+plan,stratigraphic relationship
+relief,stratigraphic relationship
+stratigraphic relationship,topography
+surface,deposit
+surface,interface
+surface,layer
+surface,plan
+surface,topography
+surface of strata,deposit
+surface of strata,interface
+layer,surface of strata
+deposit,unit of stratification
+interface,unit of stratification
+layer,unit of stratification
+plan,unit of stratification
+surface,unit of stratification
+unit of stratification,topography
+upstanding layer interface,unit of stratification

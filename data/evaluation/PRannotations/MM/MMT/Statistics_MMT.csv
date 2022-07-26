@@ -1,0 +1,95 @@
+Source,Target
+
+ratio,conditional probability
+event,finite
+event,independent
+event,joint event
+finite,uniform probability
+joint event,conditional probability
+ratio,joint event
+event,outcome
+outcome,numerical value
+outcome,random variable
+probability,conditional probability
+probability,event
+probability,finite
+probability,independent
+probability,joint event
+probability,numerical value
+probability,outcome
+probability,probability measure
+probability,probability model
+probability,random variable
+ratio,probability
+probability,sample space
+probability,uniform probability
+conditional probability,probability measure
+probability measure,independent
+uniform probability,probability measure
+probability model,conditional probability
+probability model,event
+probability model,probability measure
+probability model,uniform probability
+random variable,numerical value
+sample space,event
+sample space,finite
+sample space,numerical value
+sample space,outcome
+probability model,sample space
+sample space,random variable
+ratio,uniform probability
+event,conditional probability
+event,probability measure
+event,random variable
+event,uniform probability
+ratio,finite
+independent,conditional probability
+independent,joint event
+numerical value,conditional probability
+numerical value,finite
+numerical value,ratio
+numerical value,uniform probability
+outcome,conditional probability
+finite,outcome
+independent,outcome
+outcome,joint event
+numerical value,outcome
+outcome,probability measure
+outcome,probability model
+outcome,uniform probability
+event,probability
+finite,probability
+independent,probability
+joint event,probability
+numerical value,probability
+outcome,probability
+random variable,probability
+sample space,probability
+probability measure,conditional probability
+finite,probability measure
+independent,probability measure
+joint event,probability measure
+numerical value,probability measure
+random variable,probability measure
+ratio,probability measure
+probability measure,uniform probability
+event,probability model
+finite,probability model
+independent,probability model
+joint event,probability model
+numerical value,probability model
+probability measure,probability model
+random variable,probability model
+ratio,probability model
+random variable,conditional probability
+finite,random variable
+random variable,independent
+random variable,joint event
+numerical value,random variable
+random variable,uniform probability
+event,sample space
+outcome,sample space
+sample space,probability model
+sample space,uniform probability
+uniform probability,conditional probability
+independent,uniform probability
