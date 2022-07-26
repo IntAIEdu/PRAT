@@ -1,5 +1,5 @@
 # PREAP Prerequisite Annotation Protocol 
-for prerequisite relation annotation
+A protocol for prerequisite relation annotation
 
 This repository includes:
 <ol>
