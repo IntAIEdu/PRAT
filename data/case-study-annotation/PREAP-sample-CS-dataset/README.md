@@ -14,7 +14,7 @@ CONTENT OF THIS FOLDER
 
 'concept_list_automatically_extracted.txt': list of concepts  automatically extracted using T2K (see http://www.italianlp.it/demo/t2k-text-to-knowledge).
 
-'GOLD-PR_Concepts': list of concepts used in the annotation  after manual check and revision of the automatically extracted cocnepts (i.e., semi-automatic concept annotation).
+'GOLD-PR_Concepts': list of concepts used in the annotation after manual check and revision of the automatically extracted concepts (i.e., autonomous semi-automatic concept annotation).
 
 'GOLD-PR_PairsOnly.tsv': the list of concept pairs marked as PRs during annotation. Note that only manually created pairs are included: non-PRs and transitive pairs are  to be acquired as described in Alzetta et al., 2019, 'Prerequisite or Not Prerequisite? That’s the Problem! An NLP-based Approach for Concept Prerequisites Learning', CLiC-it 2019.
 
