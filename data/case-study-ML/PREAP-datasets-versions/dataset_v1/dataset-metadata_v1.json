@@ -22,7 +22,7 @@
     		 "description":[
              "concepts-number:185",
              "PRrelations-number:2252",
-     	     "concept-annotation-method:automatic",
+     	     "concept-annotation-method:autonomous-automatic",
              "revision:true",
              "combination-method:union",
              "annotators-number:4",
