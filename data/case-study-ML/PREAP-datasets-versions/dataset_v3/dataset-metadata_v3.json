@@ -22,7 +22,7 @@
     		 "description":[
              "concepts-number:353",
              "PRrelations-number:6768",
-     	     "concept-annotation-method:manual-one-shot",
+     	     "concept-annotation-method:simultaneous-manual",
              "revision:true",
              "combination-method:union",
              "annotators-number:5",
