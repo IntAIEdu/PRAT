@@ -2,7 +2,7 @@
 
 The features of the PR-annotated dataset_v2 and the options of PREAP adopted in the annotation process are specified in the dataset_metadata file shown in the RDF graph below.
 
-![Metadata describing the sample dataset](https://github.com/IntAIEdu/PRAT/blob/main/data/case-study-ML/PREAP-datasets-versions/dataset_v2/dataset-metadata_v2.jpg)
+![Metadata describing the sample dataset](https://github.com/IntAIEdu/PRAT/blob/main/data/case-study-ML/PREAP-datasets-versions/dataset_v2/dataset-metadata_v2.png)
 CONTENT OF THIS FOLDER
 
 'dataset_metadata_v2.json' & 'dataset_metadata_v2.jpg': JSON-LD & visual RDF graph encoding metadata information about the dataset and the related annotation process (according to Dataset class properties of schema.org vocabulary, based upon W3C DCAT vocabulary).
