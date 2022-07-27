@@ -1,4 +1,4 @@
-**dataset_v3: MANUAL ONE-SHOT concepts and prerequisites annotation**
+**dataset_v3: SIMULTANEOUS MANUAL concepts and prerequisites annotation**
 
 The features of the PR-annotated dataset_v3 and the options of PREAP adopted in the annotation process are specified in the dataset_metadata file shown in the RDF graph below.
 
@@ -14,7 +14,7 @@ CONTENT OF THIS FOLDER
 
 'concept_list_automatically_extracted.txt': list of concepts  automatically extracted using T2K (see http://www.italianlp.it/demo/t2k-text-to-knowledge).
 
-'GOLD-PR_v3_concepts': list of concepts manually created by annotators meanwhile annotating PRs starting from a list of concepts automatically extracted (i.e., one-shot annotation of concepts and PRs).
+'GOLD-PR_v3_concepts': list of concepts manually created by annotators meanwhile annotating PRs starting from a list of concepts automatically extracted (i.e., simultaneous manual annotation of concepts and PRs).
 
 'GOLD-PR_v3_pairsOnly.tsv': the list of concept pairs marked as PRs during annotation. Note that only manually created pairs are included: non-PRs and transitive pairs are are to be acquired as described in Alzetta et al., 2019, 'Prerequisite or Not Prerequisite? That’s the Problem! An NLP-based Approach for Concept Prerequisites Learning', CLiC-it 2019.
 
